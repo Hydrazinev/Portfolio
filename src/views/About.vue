@@ -1,72 +1,51 @@
 <template>
-  <div class="container">
-    <h1 class="heading">Hello!</h1>
+  <div style="margin-bottom: 80px;">
+    <h1 style="font-size: xxx-large">Hello!</h1>
 
-    <div class="content">
-      <div class="paragraph">
-        <h2>
-          I'm <strong>Vaidik Shah</strong>, an ML engineer exploring AI and LLMs.<br />
-          I thrive on developing intelligent systems that solve real-world problems, blending my ML expertise with a deep passion for AI innovation.
-        </h2>
-      </div>
+    <div class="paragraph">
+<!--      <div>-->
+<!--        I'm <strong style="font-size: x-large">Vaidik Shah</strong>, a computer science student who enjoys designing and developing apps and games.<br/>-->
+<!--      </div>-->
 
-      <div class="photo">
-        <img src="/img/vaidik.jpg" alt="Avatar" />
-      </div>
+<!--      <div style="margin-top: 20px;">I've created and contributed heavily to <router-link to="/other-projects">Apps </router-link>and <router-link to="/game-projects">Games</router-link> and worked with Unity and other tech <stacks>  </stacks>.</div>-->
+
+<!--      <div style="margin-top: 40px;">If I'm not busy crafting my next masterpiece, you can find me chugging coffee and scouring the internet for the memes. You can reach me at <a href="mailto:hurshrao@gmail.com">hurshrao@gmail.com</a> or through <router-link to="/contact">here</router-link>.</div>-->
+
+      <h2 style="line-height: 2">I'm <strong>Vaidik Shah</strong>, an ML engineer exploring AI and LLMs.<br>I thrive on developing intelligent systems that solve real-world problems, blending my ML expertise with a deep passion for AI innovation.</h2>
+      <div></div>
     </div>
+
+    <div class="photo">
+      <img src="/img/vaidik.jpg" alt="Avatar" height="240" width="250" />
+
+    </div>
+
+    <div style="clear:both"></div>
+
   </div>
 </template>
 
 <style scoped>
-.container {
-  padding: 16px;
-  margin-bottom: 80px;
-}
-
-.heading {
-  font-size: 8vw;
-  text-align: center;
+.paragraph {
+  max-width: 700px;
   margin-bottom: 20px;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.paragraph {
-  max-width: 700px;
-  font-size: 1rem;
-  line-height: 1.6;
+.photo {
+  margin-top: 30px;
   text-align: center;
-  padding: 0 16px;
-  margin-bottom: 30px;
 }
 
-.photo img {
-  max-width: 80%;
-  height: auto;
-  border-radius: 12px;
-}
-
-/* Tablet and above */
-@media screen and (min-width: 768px) {
-  .content {
-    flex-direction: row;
-    justify-content: center;
-    text-align: left;
-  }
-
+@media only screen and (min-width: 620px){
   .paragraph {
-    text-align: left;
-    font-size: 1.2rem;
-    padding-right: 40px;
+    float: left;
   }
 
-  .photo img {
-    width: 250px;
-    height: auto;
+  .photo {
+    float: left;
+    padding: 10px;
+    padding-left: 80px;
   }
 }
+
 </style>
