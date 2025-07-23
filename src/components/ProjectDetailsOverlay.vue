@@ -1,16 +1,23 @@
 <template>
   <transition name="fade">
-    <div v-if="visible">
-      <div class="overlay">
-      </div>
-      <div class="dialog" :style="{ 'background-color': color }">
-        <h1 class="dialog-title">{{ title }}</h1>
-        <div @click="$emit('close')" class="dialog-close"><i class="fa fa-times fa-lg fa-fw"></i></div>
-        <div class="dialog-content">
-          <div v-html="htmlContent"></div>
-          <div class="dialog-bottom">
-          <a @click="$emit('close')" class="dialog-close-button">Close</a>
-        </div>
+    <div v-if="visible" class="overlay-container">
+      <div class="overlay"></div>
+
+      <div class="dialog-wrapper">
+        <div class="dialog" :style="{ backgroundColor: color }">
+          <h1 class="dialog-title">{{ title }}</h1>
+
+          <div @click="$emit('close')" class="dialog-close">
+            <i class="fa fa-times fa-lg fa-fw"></i>
+          </div>
+
+          <div class="dialog-content">
+            <div v-html="htmlContent"></div>
+
+            <div class="dialog-bottom">
+              <a @click="$emit('close')" class="dialog-close-button">Close</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -28,94 +35,119 @@ export default Vue.extend({
     title: String,
     htmlContent: String,
   },
-  methods: {
-    getImage: function(url: string) {
-      console.log("fetching image " + url);
-    }
-  }
 });
 </script>
 
 <style scoped>
+/* Outer wrapper: allows page scroll if content is large */
+.overlay-container {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Transparent overlay layer */
 .overlay {
-  background-color: rgba(0,0,0,0.5);
-  z-index: 10;
-  position:fixed;
-  top:0px;
-  left:0px;
-  right:0px;
-  bottom: 0px;
+  position: fixed;
+  inset: 0;
+  z-index: 998;
 }
 
+/* Dialog wrapper centers the content */
+.dialog-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  min-height: 100%;
+  z-index: 999;
+}
+
+/* Actual dialog */
 .dialog {
-  position:absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  z-index: 11;
-  margin: 20px;
-  padding-bottom: 10px;
-  color:white;
-}
-
-iframe {
+  background-color: white;
+  color: #696969;
+  border-radius: 10px;
   width: 100%;
+  max-width: 1000px;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  padding-bottom: 20px;
 }
 
+/* Title */
 h1.dialog-title {
-    text-align: center;
-    font-size: 1.3em;
-    margin: 0px;
-    padding: 22px;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 0;
+  padding: 24px 16px;
+  color: white;
 }
 
+/* Content */
 .dialog-content {
-  padding: 20px;
-}
-
-.dialog-content {
+  padding: 24px;
   background-color: #fcfcfc;
   color: #696969;
-}
-.dialog-close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor:pointer;
-  font-size: 1.2em;
-  font-weight: 100;
-}
-.dialog-close:hover {
-  opacity: 0.6;
+  overflow: visible;
 }
 
+/* Bottom CTA */
 .dialog-bottom {
   text-align: center;
 }
 
 a.dialog-close-button {
-  cursor:pointer;
+  cursor: pointer;
   font-size: 1.4em;
   display: inline-block;
-  margin: 0 auto;
+  margin-top: 20px;
+  color: #444;
+  font-weight: bold;
 }
 
-@media only screen and (min-width: 620px){
+/* Close icon */
+.dialog-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 100;
+  color: white;
+}
+
+.dialog-close:hover {
+  opacity: 0.6;
+}
+
+/* Ensure all images inside content show fully */
+.dialog-content img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 620px) {
   .dialog {
-    margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 40px;
-    max-width: 1000px;
+    margin: 20px 0;
   }
 
   h1.dialog-title {
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
 
   .dialog-content {
-    padding: 40px;
+    padding: 16px;
   }
 }
-
-
 </style>
