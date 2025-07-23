@@ -3,7 +3,7 @@
     
     <h1>Let's get in touch</h1>
 
-    <h3 style="margin-bottom:40px;">I'm looking for a Intern !<br/>Feel free to contact me about any opportunity, or just to chat about anime,cars or anything else.</h3>
+    <h3 style="margin-bottom:40px;">I'm looking for a Internship !<br/>Feel free to contact me about any opportunity, or just to chat about anime,cars or anything else.</h3>
 
     <ul>
 
