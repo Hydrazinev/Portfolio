@@ -13,7 +13,7 @@
       <br />Besides development, I'm passionate about surfing, formula 1, anime, powerlifting.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/Vaidik_resume.pdf" target="_blank">
+        <a class="download-link" href="d/Vaidik Resume_Amazon.pdf" target="_blank">
   <i class="fa fa-download fa-lg fa-fw"></i> Download as PDF
 </a>
 
@@ -30,7 +30,7 @@
 
       <h3>Technolee</h3>
       <h4>ML Engineer</h4>
-      <h4>Aug 2025-Aug 2027</h4>
+      <h4>July 2024-July 2026</h4>
       <br>
       <div>
         <ul>
@@ -48,7 +48,7 @@ monitoring.</li>
 
       <h3>Indian Space Research Organization (ISRO)</h3>
       <h4>AI/ML Associate Engineer</h4>
-      <h4>Jan 2024-Apr 2024</h4>
+      <h4>Jan 2024-July 2024</h4>
       <br>
       <div>
         <ul>
@@ -60,6 +60,19 @@ improving computational efficiency by 20%.</li>
 and accuracy.</li>
           <li>Designed and presented interactive data visualizations with Matplotlib and Seaborn to effectively communicate insights and forecasting
 trends to scientific stakeholders.</li>
+        </ul>
+      </div>
+      <br>
+      <h3>Cre-Art Solutions</h3>
+      <h4>Software Engineer Intern</h4>
+      <h4>June 2023-August 2023</h4>
+      <br>
+      <div>
+        <ul>
+          <li>Developed and optimized RESTful APIs with Django, streamlining financial data processing, improving system efficiency by 20%.</li>
+          <li>Implemented data validation and optimizations, reducing accounting entry errors by 18% and compliance with reporting norms</li>
+          <li>Built interactive Power BI dashboards connected to SQL databases, gives insights into revenue, expenses, and key financial metrics..</li>
+
         </ul>
       </div>
       <br>
