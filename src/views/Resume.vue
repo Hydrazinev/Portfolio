@@ -13,7 +13,7 @@
       <br />Besides development, I'm passionate about surfing, formula 1, anime, powerlifting.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/Vaidik Resume_Amazon.pdf" target="_blank">
+        <a class="download-link" href="d/Vaidik Resume_Tech.pdf" target="_blank">
   <i class="fa fa-download fa-lg fa-fw"></i> Download as PDF
 </a>
 
