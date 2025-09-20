@@ -1,0 +1,45 @@
+/* GRID: equal-width columns, equal-height items */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 24px;
+  align-items: stretch;            /* make all grid items stretch to same row height */
+}
+
+/* CARD: let the grid set the width — no max-width or side margins */
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;                     /* full width of its grid cell */
+  min-height: 560px;               /* consistent tile height; tweak to taste */
+  padding: 20px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  /* no margin here — grid controls spacing */
+}
+
+/* IMAGE: uniform 16:9 box; image fills it */
+.project-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;            /* keeps all hero images same height */
+  margin-bottom: 20px;
+  border-radius: 12px;
+  overflow: hidden;                /* clip image corners to radius */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;               /* neat crop to fill; switch to 'contain' if you prefer letterboxing */
+  display: block;
+}
+
+/* CONTENT should fill remaining space so tiles end at same height */
+.paragraph { width: 100%; }
+.project-content,
+.paragraph:last-child {
+  margin-top: auto;                /* optional: push final block to bottom for balance */
+}

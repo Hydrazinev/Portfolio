@@ -1,6 +1,41 @@
 import ProjectData from '@/data/ProjectData.ts';
 
 export default [
+new ProjectData(
+  "project-8",
+  "AI-Powered Professor Rating Platform",
+  "/img_5.png",
+  `
+    <div class="paragraph" style="text-align: center;">
+      <img 
+        src="/img_2.png" 
+        alt="AI-Powered Professor Rating Platform" 
+        style="width: 100%; max-width: 600px; height: auto; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 20px; display: block;" 
+      />
+    </div>
+
+    <div class="paragraph">
+      <strong>AI-Powered Professor Rating Platform</strong> | <em>LangChain, Pinecone, FastAPI, Redis, WebSockets, JavaScript — August 2025</em><br>
+      Built an AI-powered professor search platform using <strong>LangChain + Pinecone (RAG)</strong> on RateMyProfessor data. Designed a <strong>FastAPI + WebSocket</strong> backend with <strong>Redis</strong>, load-tested to <strong>250+ users</strong> at ~<strong>99% uptime</strong>. Added a responsive UI with AI-driven recommendations that boosted engagement by <strong>45%</strong>.
+      <br/>Code is <a target="_blank" href="https://github.com/Hydrazinev/Rate-My-Professor">here</a>.
+    </div>
+
+    <div class="paragraph">
+      Main features:
+      <ul>
+        <li>RAG search with <strong>LangChain + Pinecone</strong> for accurate professor discovery</li>
+        <li><strong>FastAPI</strong> backend with <strong>WebSockets</strong> for real-time interaction</li>
+        <li><strong>Redis caching</strong>, tested at <strong>250+ concurrent</strong> users</li>
+        <li>Responsive UI with AI-driven recommendations</li>
+        <li>Improved engagement (+45% session duration)</li>
+      </ul>
+    </div>
+  `,
+  "#1ca1e2",
+  false,
+  true
+),
+
   new ProjectData(
     "project-6",
     "Academic Video and text Summarizer",
