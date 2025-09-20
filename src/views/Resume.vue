@@ -13,7 +13,7 @@
       <br />Besides development, I'm passionate about surfing, formula 1, anime, powerlifting.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/Vaidik Resume_Tech.pdf" target="_blank">
+        <a class="download-link" href="d/Vaidik_Shah_Resume.pdf" target="_blank">
   <i class="fa fa-download fa-lg fa-fw"></i> Download as PDF
 </a>
 
@@ -34,12 +34,9 @@
       <br>
       <div>
         <ul>
-          <li>Developed a logistic regression model to predict sales trends for 20+ products, achieving ~80% prediction accuracy while adhering to
-robust data handling practices.</li>
-          <li>Conducted data cleaning, feature selection, and established a training pipeline using Python and scikit-learn, aligning with best practices
-for custom ML model development.</li>
-          <li>Constructed and integrated a backend API to serve real-time predictions within a dashboard, ensuring seamless deployment and user
-accessibility.</li>
+          <li>Engineered and deployed a REST API that delivered ML predictions 200ms, enabling real-time dashboards across 20+ product lines and eliminating 10+ hours of manual reporting each week.</li>
+          <li>Built and deployed a logistic regression model on 30K+ sales records, achieving 80% accuracy and reducing forecasting errors by 25%, improving demand planning across 20+ apparel categories.</li>
+          <li>Automated PostgreSQL + NLP ETL pipeline with custom scheduling, deployed on GCP, processing 50K+ daily records and enabling analysts to work with daily refreshed insights instead of weekly updates.</li>
           <li>Leveraged Python, scikit-learn, Flask, and Pandas to deploy machine learning solutions, facilitating efficient data processing and model
 monitoring.</li>
         </ul>
@@ -52,12 +49,9 @@ monitoring.</li>
       <br>
       <div>
         <ul>
-          <li>Engineered scalable machine learning models using Python, scikit-learn, and XGBoost to forecast solar insolation, achieving over 92%
-real-world prediction accuracy.</li>
-          <li>Optimized model performance through feature engineering and hyperparameter tuning, reducing forecasting errors by 25% and
-improving computational efficiency by 20%.</li>
-          <li>Streamlined a backend pipeline to preprocess large satellite datasets and automate model inference, enhancing data processing speed
-and accuracy.</li>
+          <li>Built enterprise satellite data pipeline with automated validation protocols, achieving 99.9% data integrity while processing 1+ GB of datasets daily for solar insolation forecasting in renewable energy applications.</li>
+          <li>Enhanced PyTorch/CUDA and MATLAB LSTM-based forecasting models through advanced feature engineering, delivering 25% error reduction and 20% efficiency gains for satellite operations.</li>
+          <li>Developed live analytics dashboards with Matplotlib/Seaborn for daily scientist use, cutting reporting cycles by 40% and streamlining executive decision-making..</li>
           <li>Designed and presented interactive data visualizations with Matplotlib and Seaborn to effectively communicate insights and forecasting
 trends to scientific stakeholders.</li>
         </ul>
@@ -69,9 +63,9 @@ trends to scientific stakeholders.</li>
       <br>
       <div>
         <ul>
-          <li>Developed and optimized RESTful APIs with Django, streamlining financial data processing, improving system efficiency by 20%.</li>
-          <li>Implemented data validation and optimizations, reducing accounting entry errors by 18% and compliance with reporting norms</li>
-          <li>Built interactive Power BI dashboards connected to SQL databases, gives insights into revenue, expenses, and key financial metrics..</li>
+          <li>Redesigned Django REST APIs with advanced OOP patterns, achieving 20% performance boost while processing 50K+ daily financial transactions for trading platform.</li>
+          <li>Built automated validation framework with real-time error detection, reducing accounting discrepancies by 18% and ensuring financial compliance standards across ₹50+ lakh monthly transactions.</li>
+          <li>Created Power BI dashboards with secure SQL integration, providing real-time P&L visibility that reduced monthly financial close time by 30% for management reporting.</li>
 
         </ul>
       </div>
