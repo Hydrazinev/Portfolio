@@ -23,7 +23,7 @@
       </li>
       <li>
         <i class="fa fa-phone fa-lg fa-fw"></i>
-        <a href="/" target="_blank">+91 9265202360</a>
+        <a href="/" target="_blank">+1 562-682-3475</a>
       </li>
     </ul>
 

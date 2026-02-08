@@ -13,7 +13,7 @@
       <br />Besides development, I'm passionate about surfing, formula 1, anime, powerlifting.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/Vaidik_Shah_Resume.pdf" target="_blank">
+        <a class="download-link" href="d/Vaidik Shah Resume.pdf" target="_blank">
   <i class="fa fa-download fa-lg fa-fw"></i> Download as PDF
 </a>
 
@@ -34,8 +34,8 @@
       <br>
       <div>
         <ul>
-          <li>Engineered and deployed a REST API that delivered ML predictions 200ms, enabling real-time dashboards across 20+ product lines and eliminating 10+ hours of manual reporting each week.</li>
-          <li>Built and deployed a logistic regression model on 30K+ sales records, achieving 80% accuracy and reducing forecasting errors by 25%, improving demand planning across 20+ apparel categories.</li>
+          <li>Engineered and deployed an end-to-end REST API that delivered ML predictions less than 200ms, enabling real-time dashboards for 20+ product lines for cross-functional teams, eliminating 10+ hours of manual reporting each week.</li>
+          <li>Built and deployed a logistic regression model on 30K+ sales records, achieving 80% accuracy with statistical error reduction by 25%, improving demand planning across 20+ apparel categories.</li>
           <li>Automated PostgreSQL + NLP ETL pipeline with custom scheduling, deployed on GCP, processing 50K+ daily records and enabling analysts to work with daily refreshed insights instead of weekly updates.</li>
           <li>Leveraged Python, scikit-learn, Flask, and Pandas to deploy machine learning solutions, facilitating efficient data processing and model
 monitoring.</li>
