@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="projects-page">
     <h1>Projects</h1>
 
-    <div style="margin-bottom: 30px;">
+    <div class="projects-intro">
       Here are some of the projects I've made or heavily contributed to.
     </div>
     <ProjectsList v-bind:projects="projects" />
@@ -26,3 +26,17 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style scoped>
+.projects-page {
+  display: grid;
+  gap: 8px;
+}
+
+.projects-intro {
+  margin-bottom: 22px;
+  max-width: 62ch;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+</style>

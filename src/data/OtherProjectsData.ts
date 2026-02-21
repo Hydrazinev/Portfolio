@@ -2,20 +2,38 @@ import ProjectData from '@/data/ProjectData.ts';
 
 export default [
 new ProjectData(
-  "project-8",
-  "AI-Powered Professor Rating Platform",
-  "/img_5.png",
+  "project-10",
+  "DrugShield AI",
+  "",
   `
-    <div class="paragraph" style="text-align: center;">
-      <img 
-        src="/img_2.png" 
-        alt="AI-Powered Professor Rating Platform" 
-        style="width: 100%; max-width: 600px; height: auto; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 20px; display: block;" 
-      />
+    <div class="paragraph">
+      <strong>DrugShield AI</strong> | <em><strong>FastAPI</strong>, <strong>Pydantic</strong>, <strong>Next.js</strong>, <strong>React</strong>, <strong>Tailwind CSS</strong>, <strong>RxNav APIs</strong>, <strong>OpenAI Responses API</strong>, <strong>ReportLab</strong> - 2026</em><br>
+      Production-focused medication safety platform engineered for reliable, real-time prescription risk analysis and structured clinical decision support.
+      <br/>Code is <a target="_blank" href="https://github.com/Hydrazinev/drugshield-ai">here</a>.
+      <br/>Live demo is <a target="_blank" href="https://drug-shield.up.railway.app/">here</a>.
     </div>
 
     <div class="paragraph">
-      <strong>AI-Powered Professor Rating Platform</strong> | <em>LangChain, Pinecone, FastAPI, Redis, WebSockets, JavaScript — August 2025</em><br>
+      Key engineering highlights:
+      <ul>
+        <li>Developed and deployed <strong>DrugShield AI</strong> using <strong>FastAPI</strong>, <strong>Pydantic</strong>, <strong>Next.js</strong>, <strong>React</strong>, and <strong>Tailwind CSS</strong>, delivering real-time medication safety analysis with normalized <strong>RxNorm mapping</strong>, interaction checks, and clinician-ready <strong>PDF exports</strong>.</li>
+        <li>Built a rule-based risk engine in <strong>Python</strong> with weighted <strong>DDI</strong>, dose, and vulnerability subscores (0-10), then optimized latency using <strong>async concurrency</strong> + <strong>caching</strong> + <strong>fail-fast LLM fallback</strong>, improving reliability under unstable external API conditions.</li>
+        <li>Implemented an end-to-end data and explanation pipeline with <strong>RxNav APIs</strong>, <strong>OpenAI Responses API</strong>, and <strong>ReportLab</strong>, producing patient/caregiver/doctor summaries and structured decision-support outputs for safer medication review workflows.</li>
+      </ul>
+    </div>
+  `,
+  "#22C55E",
+  false,
+  true
+),
+
+new ProjectData(
+  "project-8",
+  "AI-Powered Professor Rating Platform",
+  "",
+  `
+    <div class="paragraph">
+      <strong>AI-Powered Professor Rating Platform</strong> | <em><strong>LangChain</strong>, <strong>Pinecone</strong>, <strong>FastAPI</strong>, <strong>Redis</strong>, <strong>WebSockets</strong>, JavaScript - August 2025</em><br>
       Built an AI-powered professor search platform using <strong>LangChain + Pinecone (RAG)</strong> on RateMyProfessor data. Designed a <strong>FastAPI + WebSocket</strong> backend with <strong>Redis</strong>, load-tested to <strong>250+ users</strong> at ~<strong>99% uptime</strong>. Added a responsive UI with AI-driven recommendations that boosted engagement by <strong>45%</strong>.
       <br/>Code is <a target="_blank" href="https://github.com/Hydrazinev/Rate-My-Professor">here</a>.
     </div>
@@ -23,7 +41,7 @@ new ProjectData(
     <div class="paragraph">
       Main features:
       <ul>
-        <li>RAG search with <strong>LangChain + Pinecone</strong> for accurate professor discovery</li>
+        <li><strong>RAG</strong> search with <strong>LangChain + Pinecone</strong> for accurate professor discovery</li>
         <li><strong>FastAPI</strong> backend with <strong>WebSockets</strong> for real-time interaction</li>
         <li><strong>Redis caching</strong>, tested at <strong>250+ concurrent</strong> users</li>
         <li>Responsive UI with AI-driven recommendations</li>
@@ -31,7 +49,7 @@ new ProjectData(
       </ul>
     </div>
   `,
-  "#1ca1e2",
+  "#4F86F7",
   false,
   true
 ),
@@ -39,18 +57,10 @@ new ProjectData(
   new ProjectData(
     "project-6",
     "Academic Video and text Summarizer",
-    "/img_1.png",
+    "",
     `
-      <div class="paragraph" style="text-align: center;">
-        <img 
-          src="/img_1.png" 
-          alt="Academic Summarizer Preview" 
-          style="width: 100%; max-width: 600px; height: auto; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 20px; display: block;" 
-        />
-      </div>
-
       <div class="paragraph">
-        <strong>Academic Video and text Summarizer</strong> helps students handle information overload by creating clear, focused summaries. It uses advanced AI (like GPT-3.5/4) to combine video and reading materials for better context. With techniques like RAG and few-shot learning, it outperforms traditional summarizers in accuracy and clarity.
+        <strong>Academic Video and text Summarizer</strong> helps students handle information overload by creating clear, focused summaries. It uses advanced AI (like <strong>GPT-3.5/4</strong>) to combine video and reading materials for better context. With techniques like <strong>RAG</strong> and few-shot learning, it outperforms traditional summarizers in accuracy and clarity.
       </div>
       
       <div class="paragraph">
@@ -60,14 +70,14 @@ new ProjectData(
       <div class="paragraph">
         Technologies Used:
         <ul>
-          <li>LLMs like GPT-3.5, GPT-4, and LLaMA-2 for generating summaries</li>
-          <li>Retrieval-Augmented Generation (RAG) to enhance contextual understanding</li>
+          <li><strong>LLMs</strong> like <strong>GPT-3.5</strong>, <strong>GPT-4</strong>, and <strong>LLaMA-2</strong> for generating summaries</li>
+          <li><strong>Retrieval-Augmented Generation (RAG)</strong> to enhance contextual understanding</li>
           <li>EDUVSUM dataset with educational videos, subtitles, and annotations</li>
-          <li>Evaluation tools like G-Eval, BERTScore, and ROUGE to measure summary quality</li>
+          <li>Evaluation tools like <strong>G-Eval</strong>, <strong>BERTScore</strong>, and <strong>ROUGE</strong> to measure summary quality</li>
         </ul>
       </div>
     `,
-    "#c10606",
+    "#F97393",
     false,
     false
   ),
@@ -75,16 +85,8 @@ new ProjectData(
   new ProjectData(
     "project-7",
     "Solar Insolation forecasting",
-    "/img_2.png",
+    "",
     `
-      <div class="paragraph" style="text-align: center;">
-        <img 
-          src="/img_2.png" 
-          alt="Solar Insolation Forecasting Preview" 
-          style="width: 100%; max-width: 600px; height: auto; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 20px; display: block;" 
-        />
-      </div>
-
       <div class="paragraph">
         <strong>Solar-Insolation-forecasting</strong><br>
         When I was an intern at <strong>ISRO</strong>, I built a machine learning model with over 92% accuracy to predict solar insolation in Jodhpur and Rewa. Improved solar power efficiency by 20% by aligning energy output with peak sunlight hours. Used 10+ years of weather data and created easy-to-use pipelines for training and testing the model.
@@ -94,7 +96,7 @@ new ProjectData(
       <div class="paragraph">
         Main features:
         <ul>
-          <li>Forecast solar insolation for Jodhpur and Rewa using ML</li>
+          <li>Forecast solar insolation for Jodhpur and Rewa using <strong>ML</strong></li>
           <li>Utilizes 10+ years of weather data</li>
           <li>Optimizes energy output with sunlight prediction</li>
           <li>Scalable pipelines for data preprocessing and model evaluation</li>
@@ -102,7 +104,7 @@ new ProjectData(
         </ul>
       </div>
     `,
-    "#1ca1e2",
+    "#F59E0B",
     false,
     true
   ),
@@ -110,18 +112,10 @@ new ProjectData(
   new ProjectData(
     "project-9",
     "Neural Network from scratch",
-    "/img_3.png",
+    "",
     `
-      <div class="paragraph" style="text-align: center;">
-        <img 
-          src="/img_3.png" 
-          alt="Neural Network From Scratch" 
-          style="width: 100%; max-width: 600px; height: auto; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 20px; display: block;" 
-        />
-      </div>
-
       <div class="paragraph">
-        <strong>Neural Network from scratch</strong> is a repository containing the implementation of a neural network built entirely from scratch without using external machine learning libraries. Demonstrates core concepts like forward propagation, backpropagation, and gradient descent using only Python.
+        <strong>Neural Network from scratch</strong> is a repository containing the implementation of a neural network built entirely from scratch without using external machine learning libraries. Demonstrates core concepts like <strong>forward propagation</strong>, <strong>backpropagation</strong>, and <strong>gradient descent</strong> using only <strong>Python</strong>.
       </div>
 
       <div class="paragraph">
@@ -130,7 +124,7 @@ new ProjectData(
         </div>
       </div>
     `,
-    "#c10606",
+    "#8B5CF6",
     false,
     true
   ),
@@ -138,18 +132,10 @@ new ProjectData(
   new ProjectData(
     "",
     "H&M Reviews and images scraper",
-    "/img_4.png",
+    "",
     `
-      <div class="paragraph" style="text-align: center;">
-        <img 
-          src="/img_4.png" 
-          alt="H&M Scraper" 
-          style="width: 100%; max-width: 600px; height: auto; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 20px; display: block;" 
-        />
-      </div>
-
       <div class="paragraph">
-        <strong>H&M Reviews and images scraper</strong> is a Python-based web scraper designed to extract customer reviews and product images from the H&M website. Useful for sentiment analysis, product research, and visual content analysis.
+        <strong>H&M Reviews and images scraper</strong> is a <strong>Python</strong>-based web scraper designed to extract customer reviews and product images from the H&M website. Useful for sentiment analysis, product research, and visual content analysis.
         <br/>
         <br/>Code is <a target="_blank" href="https://github.com/Hydrazinev/H-M-Reviews-and-images-scraper">here</a>.
       </div>
@@ -157,10 +143,10 @@ new ProjectData(
       <div class="paragraph">
         Main features:
         <ul>
-          <li>Scrapes H&M reviews and images with Python</li>
+          <li>Scrapes H&M reviews and images with <strong>Python</strong></li>
           <li>Supports sentiment and product performance analysis</li>
           <li>Generates generic customer reviews for simulations</li>
-          <li>Outputs structured data for ML pipelines</li>
+          <li>Outputs structured data for <strong>ML pipelines</strong></li>
         </ul>
       </div>
 
@@ -170,6 +156,8 @@ new ProjectData(
         </div>
       </div>
     `,
-    "#1ca1e2"
+    "#14B8A6"
   )
 ];
+
+

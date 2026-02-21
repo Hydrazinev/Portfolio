@@ -157,21 +157,21 @@ export default Vue.extend({
 <style scoped>
 h2 {
   font-weight: 100;
-  font-size: 2em;
+  font-size: 1.55em;
   margin: 0px;
   padding: 0px;
   padding-top: 50px;
 }
 h3 {
   font-weight: 100;
-  font-size: 1.6em;
+  font-size: 1.25em;
   margin: 0px;
   padding: 0px;
   padding-top: 30px;
 }
 h4 {
   font-weight: 100;
-  font-size: 1.3em;
+  font-size: 1.05em;
   margin: 0px;
   padding: 0px;
   padding-top: 15px;
@@ -180,6 +180,7 @@ h4 {
 
 .paragraph {
   max-width: 700px;
+  overflow-wrap: anywhere;
 }
 
 .download-link {
@@ -193,6 +194,33 @@ h4 {
 
 .skill-set h3 {
   padding-bottom: 10px;
+}
+
+.full-content [style*="white-space: nowrap"] {
+  white-space: normal !important;
+  overflow-x: visible !important;
+}
+
+.full-content [style*="white-space: nowrap"] > span {
+  display: block !important;
+  margin-right: 0 !important;
+  margin-bottom: 10px;
+}
+
+.full-content ::v-deep .skill-name {
+  float: none;
+  width: auto;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #ffd84d;
+  color: #1f1f1f;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.full-content ::v-deep .skill-rate {
+  display: none;
 }
 
 .photo img {
@@ -210,6 +238,18 @@ h4 {
 }
 
 @media only screen and (min-width: 620px){
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+
+  h4 {
+    font-size: 1.3em;
+  }
+
   .paragraph {
     float: left;
   }

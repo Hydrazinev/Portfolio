@@ -27,11 +27,6 @@ export default Vue.extend({
     color: String,
     title: String,
     htmlContent: String,
-  },
-  methods: {
-    getImage: function(url: string) {
-      console.log("fetching image " + url);
-    }
   }
 });
 </script>
@@ -53,9 +48,13 @@ export default Vue.extend({
   left: 0px;
   right: 0px;
   z-index: 11;
-  margin: 20px;
+  margin: 8px;
   padding-bottom: 10px;
   color:white;
+  max-height: calc(100vh - 16px);
+  overflow-y: auto;
+  border-radius: 14px;
+  box-shadow: 0 18px 30px rgba(0,0,0,0.3);
 }
 
 iframe {
@@ -64,13 +63,13 @@ iframe {
 
 h1.dialog-title {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin: 0px;
-    padding: 22px;
+    padding: 14px 42px 14px 14px;
 }
 
 .dialog-content {
-  padding: 20px;
+  padding: 14px;
 }
 
 .dialog-content {
@@ -79,11 +78,16 @@ h1.dialog-title {
 }
 .dialog-close {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 12px;
+  right: 10px;
   cursor:pointer;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 100;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .dialog-close:hover {
   opacity: 0.6;
@@ -95,7 +99,7 @@ h1.dialog-title {
 
 a.dialog-close-button {
   cursor:pointer;
-  font-size: 1.4em;
+  font-size: 1em;
   display: inline-block;
   margin: 0 auto;
 }

@@ -38,8 +38,16 @@ ul {
 
 li {
     line-height: 1.8em;
-    font-size: 1.2em;
+    font-size: 1.02em;
+    margin-bottom: 10px;
   }
+
+li a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  display: inline-block;
+  line-height: 1.4;
+}
 
 @media only screen and (min-width: 620px){
   ul {
@@ -53,6 +61,6 @@ li {
 }
 
 i {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 </style>

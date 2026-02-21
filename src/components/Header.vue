@@ -32,17 +32,21 @@ export default Vue.extend({
 
 .nav-bar {
   text-align: right;
-  padding: 20px;
-  line-height: 3em;
+  padding: 18px 14px 14px;
+  line-height: 2.6em;
 }
 
 a {
   text-transform: uppercase;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 12px;
+  margin-right: 12px;
   padding-bottom: 8px;
   white-space: nowrap;
   display: inline-block;
+  font-size: 0.92em;
+  letter-spacing: 0.03em;
+  font-family: 'League Spartan', 'Inter', Helvetica, Arial, sans-serif;
+  font-weight: 600;
 }
 
 .router-link-exact-active {
@@ -54,13 +58,16 @@ a {
 
 @media only screen and (max-width: 620px){
   .nav-bar {
-    line-height: 2em;
+    text-align: center;
+    line-height: 2.2em;
+    padding: 10px 6px;
   }
 
   a {
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 6px;
+    margin-right: 6px;
     padding-bottom: 0px;
+    font-size: 0.76em;
   }
 }
 

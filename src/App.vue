@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    
-    <link rel="stylesheet" href="@/assets/projects/projects.css" type="text/css">
-
     <Header />
     <div class="main">
       <transition name="fade" mode="out-in">
@@ -41,46 +38,55 @@ Helpers.preloadImages([
 html, body {
   margin: 0px;
   background-color: @bodyBgColor;
+  overflow-x: hidden;
 }
 
 #app {
   background-color: @contentBgColor;
   color: @textColor;
 
-  font-family: 'Karla', Helvetica, Arial, sans-serif;
+  font-family: 'Inter', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  font-size: 1.1em;
-  line-height: 1.6em;
-  text-align: justify;
+  font-size: 1.05em;
+  line-height: 1.7em;
+  text-align: left;
 }
 
 h1, h2, h3, h4, h5 {
   text-align: left;
+  font-family: 'League Spartan', 'Inter', Helvetica, Arial, sans-serif;
+  letter-spacing: -0.01em;
 }
 
 a {
   color: @textColor;
   text-decoration: none;
-  opacity: 0.5;
+  opacity: 0.72;
+  transition: opacity 0.2s ease;
 }
 a:hover, .router-link-exact-active {
   opacity: 1;
 }
 
 h1 {
-  font-size: 2.5em;
-  font-weight: 100;
-  margin-top: -10px;
-  margin-bottom: 40px;
+  font-size: clamp(2.1rem, 5.5vw, 2.8rem);
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 30px;
   margin-left: -2px; // hack to make it "seem" more aligned with smaller text content
   line-height: 1.1em;
 }
 
 .main {
-    padding: 12px;
-  }
+  padding: 12px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 @media only screen and (min-width: 620px){
 
@@ -93,6 +99,7 @@ h1 {
     margin-top: 0.67em;
     margin-bottom: 80px;
     line-height: 0.7em;
+    font-size: 2.5em;
   }
 
   .main {

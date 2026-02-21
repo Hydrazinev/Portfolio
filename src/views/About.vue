@@ -36,6 +36,21 @@
   text-align: center;
 }
 
+.photo img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center top;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
+}
+
+h2 {
+  line-height: 1.8 !important;
+  font-weight: 500;
+  max-width: 40ch;
+}
+
 @media only screen and (min-width: 620px){
   .paragraph {
     float: left;
