@@ -22,7 +22,7 @@ new ProjectData(
       </ul>
     </div>
   `,
-  "#22C55E",
+  "#FF6B6B",
   false,
   true
 ),
@@ -49,7 +49,7 @@ new ProjectData(
       </ul>
     </div>
   `,
-  "#4F86F7",
+  "#FF8E72",
   false,
   true
 ),
@@ -77,7 +77,7 @@ new ProjectData(
         </ul>
       </div>
     `,
-    "#F97393",
+    "#FF5A5F",
     false,
     false
   ),
@@ -104,7 +104,7 @@ new ProjectData(
         </ul>
       </div>
     `,
-    "#F59E0B",
+    "#F77F00",
     false,
     true
   ),
@@ -124,7 +124,7 @@ new ProjectData(
         </div>
       </div>
     `,
-    "#8B5CF6",
+    "#C855BC",
     false,
     true
   ),
@@ -156,7 +156,7 @@ new ProjectData(
         </div>
       </div>
     `,
-    "#14B8A6"
+    "#2A9D8F"
   )
 ];
 

@@ -61,13 +61,14 @@ h1, h2, h3, h4, h5 {
 }
 
 a {
-  color: @textColor;
+  color: @accentColor;
   text-decoration: none;
   opacity: 0.72;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease, color 0.2s ease;
 }
 a:hover, .router-link-exact-active {
   opacity: 1;
+  color: darken(@accentColor, 10%);
 }
 
 h1 {

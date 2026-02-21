@@ -6,10 +6,12 @@
             :key="`${project.id || 'project'}-${index}`"
             @click="showDetails(project)"
             class="project-item">
-            <div class="project-accent" :style="{ 'background-color': project.accentColor || '#1ca1e2' }"></div>
+            <div class="project-accent" :style="{ 'background-color': project.accentColor || '#ff5a5f' }"></div>
             <div class="project-content">
               <div class="title-text">{{ project.name || "Untitled Project" }}</div>
-              <div class="project-preview">{{ getPreview(project.htmlDescription) }}</div>
+              <div class="project-meta"><strong>Problem:</strong> {{ getHighlights(project.name).problem }}</div>
+              <div class="project-meta"><strong>Stack:</strong> {{ getHighlights(project.name).stack }}</div>
+              <div class="project-meta"><strong>Impact:</strong> {{ getHighlights(project.name).impact }}</div>
               <button class="project-action">View details</button>
             </div>
               </div>
@@ -58,14 +60,44 @@ export default Vue.extend({
       this.showPopup = true;
       window.scrollTo(0,0);
     },
-    getPreview: function (html: string) {
-      const cleaned = html
-        .replace(/<style[^>]*>.*?<\/style>/gis, "")
-        .replace(/<script[^>]*>.*?<\/script>/gis, "")
-        .replace(/<[^>]+>/g, " ")
-        .replace(/\s+/g, " ")
-        .trim();
-      return cleaned.length > 170 ? `${cleaned.slice(0, 170)}...` : cleaned;
+    getHighlights: function (name: string) {
+      const map: Record<string, { problem: string; stack: string; impact: string }> = {
+        "DrugShield AI": {
+          problem: "Medication safety review is slow and error-prone.",
+          stack: "FastAPI, Pydantic, Next.js, React, RxNav, OpenAI API",
+          impact: "Real-time risk scoring with clinician-ready summaries."
+        },
+        "AI-Powered Professor Rating Platform": {
+          problem: "Finding the right professor from noisy reviews.",
+          stack: "LangChain, Pinecone, FastAPI, Redis, WebSockets",
+          impact: "Improved discovery relevance and +45% engagement."
+        },
+        "Academic Video and text Summarizer": {
+          problem: "Students face information overload from mixed sources.",
+          stack: "GPT-3.5/4, LLaMA, RAG, EDUVSUM, ROUGE/BERTScore",
+          impact: "More coherent multi-source summaries for study efficiency."
+        },
+        "Solar Insolation forecasting": {
+          problem: "Inaccurate sunlight forecasts reduce solar planning quality.",
+          stack: "Python, ML forecasting, time-series weather pipelines",
+          impact: "92%+ accuracy and improved energy efficiency decisions."
+        },
+        "Neural Network from scratch": {
+          problem: "Opaque ML abstractions hide core learning mechanics.",
+          stack: "Pure Python, forward pass, backpropagation, gradient descent",
+          impact: "Clear understanding of end-to-end neural network internals."
+        },
+        "H&M Reviews and images scraper": {
+          problem: "Retail review/image data is hard to collect at scale.",
+          stack: "Python web scraping, data structuring for analytics/ML",
+          impact: "Created reusable datasets for sentiment and product insights."
+        }
+      };
+      return map[name] || {
+        problem: "Complex real-world workflow requiring automation.",
+        stack: "Modern full-stack and AI tooling.",
+        impact: "Faster decisions with reliable outputs."
+      };
     },
   },
 });
@@ -113,17 +145,17 @@ export default Vue.extend({
   font-weight: 700;
 }
 
-.project-preview {
-  color: rgba(0,0,0,0.72);
-  font-size: 0.96em;
-  line-height: 1.55;
+.project-meta {
+  color: rgba(0,0,0,0.76);
+  font-size: 0.92em;
+  line-height: 1.45;
 }
 
 .project-action {
   width: fit-content;
   border: 0;
   border-radius: 999px;
-  background: #111827;
+  background: #5a2a4a;
   color: #fff;
   padding: 8px 12px;
   font-size: 0.82em;

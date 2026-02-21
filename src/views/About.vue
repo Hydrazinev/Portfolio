@@ -1,5 +1,6 @@
 <template>
-  <div style="margin-bottom: 80px;">
+  <div class="about-page" style="margin-bottom: 80px;">
+    <div class="kicker">Building reliable AI products that ship.</div>
     <h1 style="font-size: xxx-large">Hello!</h1>
 
     <div class="paragraph">
@@ -25,10 +26,22 @@
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="less">
+@import '../css/variables.less';
+
 .paragraph {
   max-width: 700px;
   margin-bottom: 20px;
+}
+
+.kicker {
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  color: @accentColor;
+  margin-bottom: 8px;
 }
 
 .photo {

@@ -50,8 +50,9 @@ a {
 }
 
 .router-link-exact-active {
-  border: 0px solid @textColor;
+  border: 0px solid @accentColor;
   border-bottom-width: 2px;
+  color: @accentColor;
 }
 
 
