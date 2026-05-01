@@ -1,0 +1,20 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <radialGradient id="r" cx="0.8" cy="0.2" r="0.8">
+      <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#93c5fd" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <rect width="1200" height="800" fill="url(#r)"/>
+  <circle cx="260" cy="610" r="210" fill="#38bdf8" fill-opacity="0.26"/>
+  <circle cx="980" cy="170" r="180" fill="#22d3ee" fill-opacity="0.22"/>
+  <rect x="100" y="110" width="1000" height="580" rx="28" fill="#0b1020" fill-opacity="0.42" stroke="#e2e8f0" stroke-opacity="0.24"/>
+  <text x="150" y="340" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial" font-size="74" font-weight="700">AI-Powered Professor</text>
+  <text x="150" y="420" fill="#dbeafe" font-family="Inter,Segoe UI,Arial" font-size="74" font-weight="700">Rating Platform</text>
+  <text x="150" y="500" fill="#93c5fd" font-family="Inter,Segoe UI,Arial" font-size="32" font-weight="600">RAG • LangChain • Pinecone • FastAPI</text>
+</svg>

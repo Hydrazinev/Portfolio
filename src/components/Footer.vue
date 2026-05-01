@@ -2,7 +2,7 @@
   <div class="footer">
     
     <div class="left"> <strong>Made with ❤️ by Vaidik</strong></div>
-    <div class="right"><strong>Reach me at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vaidikshah03@gmail.com" target="_blank" rel="noopener noreferrer">vaidikshah03@gmail.com</a> or <a href="/contact" target="_blank" rel="noopener noreferrer">through here</a></strong></div>
+    <div class="right"><strong>Reach me at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vaidikshah03@gmail.com" target="_blank" rel="noopener noreferrer">vaidikshah03@gmail.com</a></strong></div>
 
   </div>
 </template>

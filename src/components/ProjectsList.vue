@@ -67,6 +67,11 @@ export default Vue.extend({
           stack: "FastAPI, Pydantic, Next.js, React, RxNav, OpenAI API",
           impact: "Real-time risk scoring with clinician-ready summaries."
         },
+        "Osho Voice TTS Pipeline": {
+          problem: "High-quality voice synthesis needs clean audio at scale.",
+          stack: "Python, PyTorch, Whisper, Coqui TTS, Librosa, CUDA",
+          impact: "Processed 50K+ samples and reduced preprocessing by 80%."
+        },
         "AI-Powered Professor Rating Platform": {
           problem: "Finding the right professor from noisy reviews.",
           stack: "LangChain, Pinecone, FastAPI, Redis, WebSockets",
@@ -78,9 +83,9 @@ export default Vue.extend({
           impact: "More coherent multi-source summaries for study efficiency."
         },
         "Solar Insolation forecasting": {
-          problem: "Inaccurate sunlight forecasts reduce solar planning quality.",
-          stack: "Python, ML forecasting, time-series weather pipelines",
-          impact: "92%+ accuracy and improved energy efficiency decisions."
+          problem: "Satellite forecasting data needed reliable validation.",
+          stack: "Python, PyTorch/CUDA, MATLAB, LSTM, Matplotlib, Seaborn",
+          impact: "95% data integrity, 25% lower error, 40% faster reporting."
         },
         "Neural Network from scratch": {
           problem: "Opaque ML abstractions hide core learning mechanics.",

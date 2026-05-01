@@ -3,7 +3,7 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>Vaidik Shah</strong>, An ML engineer and developer passionate about AI, LLMs, and real-world applications, I am actively exploring opportunities through internships, collaborations, and innovation-driven challenges like hackathons.
+      I'm <strong>Vaidik Shah</strong>, a Software Engineer (Data & ML) passionate about AI, LLMs, and real-world applications. I am actively exploring opportunities through internships, collaborations, and innovation-driven challenges like hackathons.
       <br />
       <br />I’ve built intelligent systems using Python, Scikit-learn, and modern ML frameworks, with hands-on experience in LLMs, data pipelines, and backend integration. I'm especially excited about applying AI to real-world problems through research, automation, and scalable solutions.
       <br />
@@ -29,7 +29,7 @@
 
 
       <h3>Technolee</h3>
-      <h4>ML Engineer</h4>
+      <h4>Software Engineer (Data & ML)</h4>
       <h4>July 2024-July 2026</h4>
       <br>
       <div>

@@ -16,10 +16,4 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://hurshh.github.io
-# git push -f git@github.com:hurshh/hurshh.github.io.git main
-
-# if you are deploying to https://hurshh.github.io/<REPO>
-# git push -f git@github.com:hurshh/hurshh.github.io.git main:gh-pages
-
 cd -

@@ -36,6 +36,7 @@ new ProjectData(
       <strong>AI-Powered Professor Rating Platform</strong> | <em><strong>LangChain</strong>, <strong>Pinecone</strong>, <strong>FastAPI</strong>, <strong>Redis</strong>, <strong>WebSockets</strong>, JavaScript - August 2025</em><br>
       Built an AI-powered professor search platform using <strong>LangChain + Pinecone (RAG)</strong> on RateMyProfessor data. Designed a <strong>FastAPI + WebSocket</strong> backend with <strong>Redis</strong>, load-tested to <strong>250+ users</strong> at ~<strong>99% uptime</strong>. Added a responsive UI with AI-driven recommendations that boosted engagement by <strong>45%</strong>.
       <br/>Code is <a target="_blank" href="https://github.com/Hydrazinev/Rate-My-Professor">here</a>.
+      <br/>Live demo is <a target="_blank" href="https://web-production-14c6.up.railway.app/">here</a>.
     </div>
 
     <div class="paragraph">
@@ -50,6 +51,30 @@ new ProjectData(
     </div>
   `,
   "#FF8E72",
+  false,
+  true
+),
+
+new ProjectData(
+  "project-11",
+  "Osho Voice TTS Pipeline",
+  "",
+  `
+    <div class="paragraph">
+      <strong>Osho Voice TTS Pipeline</strong> | <em><strong>Python</strong>, <strong>PyTorch</strong>, <strong>Whisper</strong>, <strong>Coqui TTS</strong>, <strong>Librosa</strong> - January 2025</em><br>
+      Scalable text-to-speech pipeline built to process, validate, train, and benchmark voice synthesis models from large scraped audio datasets.
+    </div>
+
+    <div class="paragraph">
+      Key engineering highlights:
+      <ul>
+        <li>Architected and deployed a scalable <strong>TTS system</strong> using transformer-based models, processing <strong>50K+ audio samples</strong> with <strong>95% accuracy</strong> using Coqui defaults and validating output quality through external tester feedback.</li>
+        <li>Built an automated <strong>ML data pipeline</strong> with <strong>Python scripts</strong> and <strong>regex-based validation</strong>, processing <strong>10K+ scraped audio samples</strong>, reducing preprocessing overhead by <strong>80%</strong>, and improving training data quality.</li>
+        <li>Benchmarked TTS systems with <strong>CUDA acceleration</strong> and model versioning, improving inference speed, experiment tracking, and reliability.</li>
+      </ul>
+    </div>
+  `,
+  "#6C63FF",
   false,
   true
 ),
@@ -89,18 +114,16 @@ new ProjectData(
     `
       <div class="paragraph">
         <strong>Solar-Insolation-forecasting</strong><br>
-        When I was an intern at <strong>ISRO</strong>, I built a machine learning model with over 92% accuracy to predict solar insolation in Jodhpur and Rewa. Improved solar power efficiency by 20% by aligning energy output with peak sunlight hours. Used 10+ years of weather data and created easy-to-use pipelines for training and testing the model.
+        During my <strong>AI/ML Engineer Internship at ISRO</strong>, I built an enterprise satellite data pipeline for solar insolation forecasting, achieving <strong>95% data integrity</strong> while processing <strong>1+ GB of daily satellite and weather data</strong>.
         <br/>Code is <a target="_blank" href="https://github.com/Hydrazinev/Hydrazinev-Solar-Insolation-forecasting">here</a>.
       </div>
 
       <div class="paragraph">
-        Main features:
+        Key engineering highlights:
         <ul>
-          <li>Forecast solar insolation for Jodhpur and Rewa using <strong>ML</strong></li>
-          <li>Utilizes 10+ years of weather data</li>
-          <li>Optimizes energy output with sunlight prediction</li>
-          <li>Scalable pipelines for data preprocessing and model evaluation</li>
-          <li>Visual outputs for energy planning decisions</li>
+          <li>Built an automated validation pipeline for satellite datasets, maintaining <strong>95% data integrity</strong> across <strong>1+ GB</strong> of daily data used for renewable energy forecasting.</li>
+          <li>Optimized <strong>LSTM forecasting models</strong> with <strong>PyTorch/CUDA</strong> and <strong>MATLAB</strong>, reducing prediction error by <strong>25%</strong> and improving model efficiency by <strong>20%</strong>.</li>
+          <li>Developed monitoring dashboards with <strong>Matplotlib</strong> and <strong>Seaborn</strong>, cutting reporting cycles by <strong>40%</strong> and improving visibility into model outputs.</li>
         </ul>
       </div>
     `,

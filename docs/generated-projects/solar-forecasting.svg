@@ -1,0 +1,15 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <circle cx="930" cy="190" r="120" fill="#fde68a"/>
+  <path d="M0 620 C220 560, 380 650, 590 610 C800 570, 980 640, 1200 590 L1200 800 L0 800 Z" fill="#78350f" fill-opacity="0.38"/>
+  <rect x="95" y="105" width="1010" height="590" rx="28" fill="#082f49" fill-opacity="0.34" stroke="#fef3c7" stroke-opacity="0.3"/>
+  <text x="145" y="340" fill="#fef3c7" font-family="Inter,Segoe UI,Arial" font-size="74" font-weight="700">Solar Insolation</text>
+  <text x="145" y="420" fill="#fde68a" font-family="Inter,Segoe UI,Arial" font-size="74" font-weight="700">Forecasting</text>
+  <text x="145" y="500" fill="#fcd34d" font-family="Inter,Segoe UI,Arial" font-size="32" font-weight="600">ISRO • Time-Series ML • Energy Optimization</text>
+</svg>
