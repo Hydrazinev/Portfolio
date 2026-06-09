@@ -8,6 +8,9 @@ graphify-out/
 .superpowers/
 docs/
 
+# Claude / AI tooling
+CLAUDE.md
+
 
 
 # local env files
