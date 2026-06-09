@@ -2,6 +2,12 @@
 node_modules
 dist
 
+# Auto-generated / tooling
+graphify-out/
+.playwright-mcp/
+.superpowers/
+docs/
+
 
 
 # local env files
