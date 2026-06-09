@@ -1,0 +1,386 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Home" [ref=e6] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e7]: VS
+      - navigation [ref=e8]:
+        - link "About" [ref=e9] [cursor=pointer]:
+          - /url: "#about"
+        - link "Projects" [ref=e10] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Skills" [ref=e11] [cursor=pointer]:
+          - /url: "#skills"
+        - link "Experience" [ref=e12] [cursor=pointer]:
+          - /url: "#experience"
+        - link "Education" [ref=e13] [cursor=pointer]:
+          - /url: "#education"
+        - link "Contact" [ref=e14] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e15]:
+        - link "resume" [ref=e16] [cursor=pointer]:
+          - /url: /Vaidik_Shah_Resume.pdf
+        - link "say hi" [ref=e17] [cursor=pointer]:
+          - /url: "#contact"
+        - button "Switch to dark mode" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 🌙
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]:
+          - img [ref=e24]
+          - text: AI systems · data engineering · software engineer
+        - heading "I build AI systems with clean pipelines and a little soul." [level=1] [ref=e26]
+        - paragraph [ref=e27]: Hi, I’m Vaidik. I’m a software engineer focused on AI/ML and data engineering, MS CS student at CSULB, and ex-ISRO. I build intelligent systems — from satellite pipelines to medication safety platforms — from the messy middle of real engineering.
+        - generic [ref=e28]:
+          - link "Open case files" [ref=e29] [cursor=pointer]:
+            - /url: "#projects"
+            - text: Open case files
+            - img [ref=e30]
+          - link "Read field notes" [ref=e33] [cursor=pointer]:
+            - /url: "#education"
+        - generic [ref=e34]:
+          - generic [ref=e35]: Python
+          - generic [ref=e36]: PyTorch
+          - generic [ref=e37]: FastAPI
+          - generic [ref=e38]: LangChain
+          - generic [ref=e39]: AWS
+          - generic [ref=e40]: React
+          - generic [ref=e41]: PostgreSQL
+      - generic [ref=e42]:
+        - generic [ref=e45]:
+          - generic [ref=e46]: ✦
+          - generic [ref=e47]: ✶
+          - generic [ref=e48]: ✧
+          - generic [ref=e50]:
+            - generic [ref=e55]: deep work
+            - generic [ref=e56]: compiling...
+        - generic [ref=e57]:
+          - generic [ref=e62]: vaidik — zsh
+          - paragraph [ref=e63]:
+            - text: "> model.train() ✓"
+            - text: "> pipeline.deploy() ✓"
+            - text: "> ship.anyway() ▌"
+    - generic [ref=e66]:
+      - paragraph [ref=e67]: 01 · About
+      - heading "A portfolio that behaves like a field notebook." [level=2] [ref=e68]
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - img [ref=e71]
+          - paragraph [ref=e74]: I’m a software engineer specializing in AI/ML and data engineering. I’ve built systems ranging from satellite data pipelines at ISRO to production ML APIs serving real-time dashboards for 20+ product lines.
+          - paragraph [ref=e75]: I care about systems that actually ship — reliable, observable, and fast. Whether it’s a RAG pipeline, a TTS model, or a medication safety platform, I build from first principles.
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - paragraph [ref=e78]: note 1
+            - paragraph [ref=e79]: MS CS student at CSULB — incoming August 2025. Ex-ISRO, AWS Certified Solutions Architect.
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: note 2
+            - paragraph [ref=e82]: Built production ML systems at Technolee serving real-time predictions <200ms for 20+ product lines.
+          - generic [ref=e83]:
+            - paragraph [ref=e84]: note 3
+            - paragraph [ref=e85]: Currently building AI/ML platforms — from medication safety (DrugShield AI) to multi-voice TTS (PageSpeaks).
+    - generic [ref=e86]:
+      - paragraph [ref=e87]: 02 · Projects
+      - heading "Selected case files from the lab." [level=2] [ref=e88]
+      - generic [ref=e89]:
+        - article [ref=e90] [cursor=pointer]:
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - generic [ref=e93]: case-001
+              - generic [ref=e94]: PRODUCTION
+            - paragraph [ref=e95]: Medical AI
+          - heading "DrugShield AI" [level=3] [ref=e96]
+          - paragraph [ref=e97]: Medication safety needs real-time DDI scoring, reliable risk signals, and clinician-grade output.
+          - paragraph [ref=e98]: Built a production platform that analyzes prescriptions for drug-drug interactions using OpenAI + RxNav APIs. Generates clinician-ready PDF reports with risk scoring. Deployed on Railway.
+          - generic [ref=e99]:
+            - generic [ref=e100]: FastAPI
+            - generic [ref=e101]: Next.js
+            - generic [ref=e102]: OpenAI
+            - generic [ref=e103]: RxNav
+            - generic [ref=e104]: Python
+          - generic [ref=e105]:
+            - link "Open case file" [ref=e106]:
+              - /url: https://github.com/Hydrazinev/drugshield-ai
+              - text: Open case file
+              - img [ref=e107]
+            - link "live ↗" [ref=e110]:
+              - /url: https://drug-shield.up.railway.app/
+        - article [ref=e111] [cursor=pointer]:
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - generic [ref=e114]: case-002
+              - generic [ref=e115]: BUILT
+            - paragraph [ref=e116]: Voice AI
+          - heading "PageSpeaks" [level=3] [ref=e117]
+          - paragraph [ref=e118]: Multi-voice TTS needs custom fine-tuning, GPU inference, and chunked streaming to feel real.
+          - paragraph [ref=e119]: Fine-tuned F5-TTS on 19h of audio across 6,676 clips. Built serverless Modal GPU inference with chunked streaming. Zero cold-start perceived latency.
+          - generic [ref=e120]:
+            - generic [ref=e121]: PyTorch
+            - generic [ref=e122]: F5-TTS
+            - generic [ref=e123]: Whisper
+            - generic [ref=e124]: Modal
+            - generic [ref=e125]: FastAPI
+        - article [ref=e127] [cursor=pointer]:
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - generic [ref=e130]: case-003
+              - generic [ref=e131]: DEPLOYED
+            - paragraph [ref=e132]: RAG Application
+          - heading "AI Professor Rating" [level=3] [ref=e133]
+          - paragraph [ref=e134]: RAG over professor reviews needs semantic retrieval, fast WebSockets, and load-tested reliability.
+          - paragraph [ref=e135]: LangChain + Pinecone RAG on RateMyProfessor data. FastAPI WebSocket backend with Redis caching. Load-tested to 250+ concurrent users without degradation.
+          - generic [ref=e136]:
+            - generic [ref=e137]: LangChain
+            - generic [ref=e138]: Pinecone
+            - generic [ref=e139]: FastAPI
+            - generic [ref=e140]: Redis
+            - generic [ref=e141]: WebSockets
+          - generic [ref=e142]:
+            - link "Open case file" [ref=e143]:
+              - /url: https://github.com/Hydrazinev/Rate-My-Professor
+              - text: Open case file
+              - img [ref=e144]
+            - link "live ↗" [ref=e147]:
+              - /url: https://web-production-14c6.up.railway.app/
+        - article [ref=e148] [cursor=pointer]:
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]: case-004
+              - generic [ref=e152]: BUILT
+            - paragraph [ref=e153]: ML Pipeline
+          - heading "Osho Voice TTS" [level=3] [ref=e154]
+          - paragraph [ref=e155]: Training TTS at scale means automated pipelines, clean data, and CUDA-accelerated preprocessing.
+          - paragraph [ref=e156]: Scalable pipeline processing 50K+ audio samples at 95% accuracy. Automated ML data pipeline with CUDA acceleration, quality filtering, and model versioning.
+          - generic [ref=e157]:
+            - generic [ref=e158]: Python
+            - generic [ref=e159]: PyTorch
+            - generic [ref=e160]: Whisper
+            - generic [ref=e161]: Coqui TTS
+            - generic [ref=e162]: Librosa
+        - article [ref=e164] [cursor=pointer]:
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: case-005
+              - generic [ref=e168]: BUILT
+            - paragraph [ref=e169]: AI Application
+          - heading "Academic Summarizer" [level=3] [ref=e170]
+          - paragraph [ref=e171]: Summarizing academic content requires combining video, text, and retrieval into one coherent pipeline.
+          - paragraph [ref=e172]: AI summarizer using GPT-4, RAG, and few-shot learning across video and text sources. Evaluated with BERTScore and ROUGE against ground-truth abstracts.
+          - generic [ref=e173]:
+            - generic [ref=e174]: GPT-4
+            - generic [ref=e175]: LangChain
+            - generic [ref=e176]: RAG
+            - generic [ref=e177]: LLaMA-2
+            - generic [ref=e178]: Python
+          - link "Open case file" [ref=e180]:
+            - /url: https://github.com/Hydrazinev/Academic-Video-and-text-Summarizer
+            - text: Open case file
+            - img [ref=e181]
+        - article [ref=e184] [cursor=pointer]:
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - generic [ref=e187]: case-006
+              - generic [ref=e188]: BUILT
+            - paragraph [ref=e189]: ML / Forecasting
+          - heading "Solar Insolation Forecasting" [level=3] [ref=e190]
+          - paragraph [ref=e191]: Satellite forecasting at ISRO required reliable pipelines, LSTM tuning, and actionable dashboards.
+          - paragraph [ref=e192]: LSTM forecasting on 1+GB daily satellite data at ISRO. 25% prediction error reduction, 40% faster reporting with Matplotlib/Seaborn dashboards.
+          - generic [ref=e193]:
+            - generic [ref=e194]: PyTorch
+            - generic [ref=e195]: LSTM
+            - generic [ref=e196]: MATLAB
+            - generic [ref=e197]: Matplotlib
+            - generic [ref=e198]: CUDA
+          - link "Open case file" [ref=e200]:
+            - /url: https://github.com/Hydrazinev/Hydrazinev-Solar-Insolation-forecasting
+            - text: Open case file
+            - img [ref=e201]
+        - article [ref=e204] [cursor=pointer]:
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - generic [ref=e207]: case-007
+              - generic [ref=e208]: BUILT
+            - paragraph [ref=e209]: ML Foundations
+          - heading "Neural Network from Scratch" [level=3] [ref=e210]
+          - paragraph [ref=e211]: Understanding backprop means implementing every layer, every gradient, with no framework crutch.
+          - paragraph [ref=e212]: Full neural net from first principles — forward prop, backprop, gradient descent — using only Python and NumPy. No PyTorch, no TensorFlow.
+          - generic [ref=e213]:
+            - generic [ref=e214]: Python
+            - generic [ref=e215]: NumPy
+            - generic [ref=e216]: ML
+          - link "Open case file" [ref=e218]:
+            - /url: https://github.com/Hydrazinev/Neural-Network-from-scratch
+            - text: Open case file
+            - img [ref=e219]
+        - article [ref=e222] [cursor=pointer]:
+          - generic [ref=e223]:
+            - generic [ref=e224]:
+              - generic [ref=e225]: case-008
+              - generic [ref=e226]: BUILT
+            - paragraph [ref=e227]: Data Pipeline
+          - heading "H&M Reviews Scraper" [level=3] [ref=e228]
+          - paragraph [ref=e229]: Collecting product review data at scale needs structured output and clean ML-ready formatting.
+          - paragraph [ref=e230]: Python scraper for H&M customer reviews and product images. Outputs structured datasets for sentiment analysis and ML training pipelines.
+          - generic [ref=e231]:
+            - generic [ref=e232]: Python
+            - generic [ref=e233]: Web Scraping
+            - generic [ref=e234]: Data Engineering
+          - link "Open case file" [ref=e236]:
+            - /url: https://github.com/Hydrazinev/H-M-Reviews-and-images-scraper
+            - text: Open case file
+            - img [ref=e237]
+    - generic [ref=e240]:
+      - paragraph [ref=e241]: 03 · Skills
+      - heading "Tools, grouped like a sane person packed them." [level=2] [ref=e242]
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - heading "Languages" [level=3] [ref=e245]:
+            - img [ref=e246]
+            - text: Languages
+          - generic [ref=e249]:
+            - generic [ref=e250]: Python
+            - generic [ref=e251]: TypeScript
+            - generic [ref=e252]: JavaScript
+            - generic [ref=e253]: Java
+            - generic [ref=e254]: C++
+            - generic [ref=e255]: Golang
+            - generic [ref=e256]: Rust
+            - generic [ref=e257]: C#
+        - generic [ref=e258]:
+          - heading "AI / ML" [level=3] [ref=e259]:
+            - img [ref=e260]
+            - text: AI / ML
+          - generic [ref=e263]:
+            - generic [ref=e264]: PyTorch
+            - generic [ref=e265]: TensorFlow
+            - generic [ref=e266]: LangChain
+            - generic [ref=e267]: Scikit-learn
+            - generic [ref=e268]: NumPy
+            - generic [ref=e269]: Pandas
+            - generic [ref=e270]: XGBoost
+            - generic [ref=e271]: NLP
+            - generic [ref=e272]: Computer Vision
+        - generic [ref=e273]:
+          - heading "Backend & Databases" [level=3] [ref=e274]:
+            - img [ref=e275]
+            - text: Backend & Databases
+          - generic [ref=e278]:
+            - generic [ref=e279]: Node.js
+            - generic [ref=e280]: Express.js
+            - generic [ref=e281]: FastAPI
+            - generic [ref=e282]: Django
+            - generic [ref=e283]: PostgreSQL
+            - generic [ref=e284]: MySQL
+            - generic [ref=e285]: MongoDB
+            - generic [ref=e286]: DynamoDB
+            - generic [ref=e287]: Redis
+        - generic [ref=e288]:
+          - heading "Cloud & DevOps" [level=3] [ref=e289]:
+            - img [ref=e290]
+            - text: Cloud & DevOps
+          - generic [ref=e293]:
+            - generic [ref=e294]: AWS
+            - generic [ref=e295]: GCP
+            - generic [ref=e296]: Azure
+            - generic [ref=e297]: Docker
+            - generic [ref=e298]: CI/CD
+            - generic [ref=e299]: Git
+            - generic [ref=e300]: Linux
+            - generic [ref=e301]: Modal
+        - generic [ref=e302]:
+          - heading "Web & Other" [level=3] [ref=e303]:
+            - img [ref=e304]
+            - text: Web & Other
+          - generic [ref=e307]:
+            - generic [ref=e308]: React
+            - generic [ref=e309]: Next.js
+            - generic [ref=e310]: Angular
+            - generic [ref=e311]: Vue
+            - generic [ref=e312]: Tailwind CSS
+            - generic [ref=e313]: HTML5 / CSS
+            - generic [ref=e314]: Web3
+    - generic [ref=e315]:
+      - paragraph [ref=e316]: 04 · Experience
+      - heading "From production systems to moonshot engineering." [level=2] [ref=e317]
+      - generic [ref=e318]:
+        - article [ref=e319]:
+          - paragraph [ref=e321]: Jul 2024 – Jul 2025
+          - generic [ref=e322]:
+            - heading "Software Engineer (Data & ML)" [level=3] [ref=e323]
+            - paragraph [ref=e324]: Technolee
+            - list [ref=e325]:
+              - listitem [ref=e326]: Engineered end-to-end REST API delivering ML predictions <200ms, enabling real-time dashboards for 20+ product lines and eliminating 10+ hours of manual reporting weekly.
+              - listitem [ref=e328]: Built logistic regression model on 30K+ sales records, improving demand forecasting accuracy by 25% across 20+ product categories.
+              - listitem [ref=e330]: Automated PostgreSQL + NLP ETL pipeline on AWS processing 50K+ daily records, shifting analysts from weekly to daily refreshed insights.
+        - article [ref=e332]:
+          - paragraph [ref=e334]: Jan 2024 – Jul 2024
+          - generic [ref=e335]:
+            - heading "AI/ML Engineer Intern" [level=3] [ref=e336]
+            - paragraph [ref=e337]: Indian Space Research Organization (ISRO)
+            - list [ref=e338]:
+              - listitem [ref=e339]: Built enterprise satellite data pipeline with automated validation, achieving 99.9% data integrity while processing 1+GB of daily data for solar insolation forecasting.
+              - listitem [ref=e341]: Optimized LSTM forecasting models using PyTorch/CUDA and MATLAB, reducing prediction error by 25% and improving efficiency by 20%.
+              - listitem [ref=e343]: Developed Matplotlib/Seaborn dashboards transforming complex satellite data into actionable insights, cutting reporting cycles by 40%.
+        - article [ref=e345]:
+          - paragraph [ref=e347]: Jun 2023 – Aug 2023
+          - generic [ref=e348]:
+            - heading "Software Engineer Intern" [level=3] [ref=e349]
+            - paragraph [ref=e350]: Cre-Art Solutions
+            - list [ref=e351]:
+              - listitem [ref=e352]: Redesigned Django REST APIs with advanced OOP patterns, achieving 20% performance boost while processing 50K+ daily financial transactions.
+              - listitem [ref=e354]: Built automated validation framework with real-time error detection, reducing accounting discrepancies by 18% across ₹50+ lakh monthly transactions.
+              - listitem [ref=e356]: Built interactive Power BI dashboards with SQL integration, enabling real-time financial analysis and reducing monthly reporting time by 30%.
+    - generic [ref=e358]:
+      - paragraph [ref=e359]: 05 · Field Notes
+      - heading "Where I learned to think in systems." [level=2] [ref=e360]
+      - generic [ref=e361]:
+        - generic [ref=e362]:
+          - img [ref=e363]
+          - heading "Master of Science in Computer Science" [level=3] [ref=e366]
+          - paragraph [ref=e367]: California State University, Long Beach
+          - paragraph [ref=e368]: Aug 2025 – May 2027 · Long Beach, CA
+          - generic [ref=e369]:
+            - generic [ref=e370]: Artificial Intelligence
+            - generic [ref=e371]: Machine Learning
+            - generic [ref=e372]: Distributed Computing
+            - generic [ref=e373]: Natural Language Processing
+        - generic [ref=e374]:
+          - img [ref=e375]
+          - heading "Bachelor of Science in Computer Science" [level=3] [ref=e378]
+          - paragraph [ref=e379]: Gujarat Technological University
+          - paragraph [ref=e380]: Aug 2020 – Jun 2024 · Ahmedabad, India
+          - generic [ref=e381]:
+            - generic [ref=e382]: Object Oriented Programming
+            - generic [ref=e383]: Data Structures
+            - generic [ref=e384]: Relational Databases
+            - generic [ref=e385]: Computer Networks
+            - generic [ref=e386]: System Design
+    - generic [ref=e389]:
+      - generic [ref=e390]:
+        - paragraph [ref=e391]:
+          - img [ref=e392]
+          - text: Long Beach, CA
+        - heading "Got an AI problem, research idea, or excellent debugging story?" [level=2] [ref=e395]
+        - paragraph [ref=e396]: I’m always happy to talk AI systems, data engineering, internships, research, developer tools, and ideas that sound slightly too ambitious at first.
+        - generic [ref=e397]:
+          - link "Email me" [ref=e398] [cursor=pointer]:
+            - /url: mailto:vaidikshah03@gmail.com
+            - img [ref=e399]
+            - text: Email me
+          - link "GitHub" [ref=e402] [cursor=pointer]:
+            - /url: https://github.com/Hydrazinev
+            - img [ref=e403]
+            - text: GitHub
+          - link "LinkedIn" [ref=e406] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/vaidik-shah/
+            - img [ref=e407]
+            - text: LinkedIn
+      - generic [ref=e413]:
+        - generic [ref=e417]: ✦
+        - generic [ref=e418]: ✶
+        - generic [ref=e419]: ✧
+        - generic [ref=e429]: ping
+        - generic [ref=e436]: "signal: strong"
+        - generic [ref=e437]: "reply latency: low"
+  - contentinfo [ref=e438]:
+    - paragraph [ref=e439]: © 2026 Vaidik Shah · Built with React + Vite + Tailwind

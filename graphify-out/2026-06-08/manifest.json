@@ -1,0 +1,787 @@
+{
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/tsconfig.node.json": {
+    "mtime": 1780906068.0057752,
+    "ast_hash": "767b2e9abe6452170cdc399ca052cfbc",
+    "semantic_hash": "767b2e9abe6452170cdc399ca052cfbc"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/vercel.json": {
+    "mtime": 1780906280.2400358,
+    "ast_hash": "a2272c90a8f0633adced79cc098ac293",
+    "semantic_hash": "a2272c90a8f0633adced79cc098ac293"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/tailwind.config.ts": {
+    "mtime": 1780917837.2322621,
+    "ast_hash": "6322b69b66bb6de8eef11c0293fb4326",
+    "semantic_hash": "6322b69b66bb6de8eef11c0293fb4326"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/package.json": {
+    "mtime": 1780906043.7894228,
+    "ast_hash": "95b9ee016ca3eb254da135313a109672",
+    "semantic_hash": "95b9ee016ca3eb254da135313a109672"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.eslintrc.js": {
+    "mtime": 1780897458.342507,
+    "ast_hash": "f3ae682b5ddda62d32b301ee7df1ad5d",
+    "semantic_hash": "f3ae682b5ddda62d32b301ee7df1ad5d"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/tsconfig.json": {
+    "mtime": 1780906048.8602345,
+    "ast_hash": "579ad3ccc41c7bacd1a7373c858e40ea",
+    "semantic_hash": "579ad3ccc41c7bacd1a7373c858e40ea"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/deploy.sh": {
+    "mtime": 1780897458.3430042,
+    "ast_hash": "01c6c54bbe9ea14b858bb9868f0633cb",
+    "semantic_hash": "01c6c54bbe9ea14b858bb9868f0633cb"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/vite.config.ts": {
+    "mtime": 1780906055.2771385,
+    "ast_hash": "e52642322c1ba92ce948ce3cd9b6b739",
+    "semantic_hash": "e52642322c1ba92ce948ce3cd9b6b739"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/postcss.config.js": {
+    "mtime": 1780906064.1904044,
+    "ast_hash": "4acb6a30c0858e1e9ceb649da060dca5",
+    "semantic_hash": "4acb6a30c0858e1e9ceb649da060dca5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/App.tsx": {
+    "mtime": 1780919953.3898501,
+    "ast_hash": "7e11b14ff98a3683dd2a27cf98f4064f",
+    "semantic_hash": "7e11b14ff98a3683dd2a27cf98f4064f"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/main.tsx": {
+    "mtime": 1780906094.378577,
+    "ast_hash": "aa122bdcf833a2c00fdf9ca8e5348675",
+    "semantic_hash": "aa122bdcf833a2c00fdf9ca8e5348675"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Projects.tsx": {
+    "mtime": 1780920649.354815,
+    "ast_hash": "dec90222b7fb972903b313e0ed7eae6c",
+    "semantic_hash": "dec90222b7fb972903b313e0ed7eae6c"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Hero.tsx": {
+    "mtime": 1780921083.8918395,
+    "ast_hash": "0dd57e3ab0cb8577b89b71a91c0bd660",
+    "semantic_hash": "0dd57e3ab0cb8577b89b71a91c0bd660"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Nav.tsx": {
+    "mtime": 1780917878.3267512,
+    "ast_hash": "0d212b2d50c5544133aa640de3d0022b",
+    "semantic_hash": "0d212b2d50c5544133aa640de3d0022b"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Experience.tsx": {
+    "mtime": 1780921310.3003283,
+    "ast_hash": "30b38f5bc3591b50d55a7e4318b7578f",
+    "semantic_hash": "30b38f5bc3591b50d55a7e4318b7578f"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Contact.tsx": {
+    "mtime": 1780917995.565999,
+    "ast_hash": "855a67438ce0aab199f8d93d55d277a9",
+    "semantic_hash": "855a67438ce0aab199f8d93d55d277a9"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Footer.tsx": {
+    "mtime": 1780918000.8672109,
+    "ast_hash": "be9cabb7b5ec736a889cf04bdadc7c1f",
+    "semantic_hash": "be9cabb7b5ec736a889cf04bdadc7c1f"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Skills.tsx": {
+    "mtime": 1780921275.0676992,
+    "ast_hash": "84fc6dde32bd90046dd88bb9f516cb5c",
+    "semantic_hash": "84fc6dde32bd90046dd88bb9f516cb5c"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Education.tsx": {
+    "mtime": 1780921310.3133686,
+    "ast_hash": "f4b7d5fc128c5381aa4b3dfb9b8b17ed",
+    "semantic_hash": "f4b7d5fc128c5381aa4b3dfb9b8b17ed"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/About.tsx": {
+    "mtime": 1780921379.3949547,
+    "ast_hash": "0dcff4c18661b5b7034abb00255679a9",
+    "semantic_hash": "0dcff4c18661b5b7034abb00255679a9"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/data/projects.ts": {
+    "mtime": 1780907381.010763,
+    "ast_hash": "ac0c9ab6873765bf43d7687eb6e20c89",
+    "semantic_hash": "ac0c9ab6873765bf43d7687eb6e20c89"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/data/education.ts": {
+    "mtime": 1780921022.4862118,
+    "ast_hash": "ee640d781b2e865a2ae1b5d03e51a814",
+    "semantic_hash": "ee640d781b2e865a2ae1b5d03e51a814"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/data/experience.ts": {
+    "mtime": 1780906136.8364606,
+    "ast_hash": "83f854a4fbb8d0ea6714a357d9a14ddd",
+    "semantic_hash": "83f854a4fbb8d0ea6714a357d9a14ddd"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/data/skills.ts": {
+    "mtime": 1780921009.6561527,
+    "ast_hash": "565b93a64d7bdcf59579db51447db719",
+    "semantic_hash": "565b93a64d7bdcf59579db51447db719"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/index.html": {
+    "mtime": 1780919333.6751275,
+    "ast_hash": "f9763c796a00620b736f61b0ecd83256",
+    "semantic_hash": "f9763c796a00620b736f61b0ecd83256"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/README.md": {
+    "mtime": 1780897458.3429277,
+    "ast_hash": "8463e9395adc16624c7ad6af320023b8",
+    "semantic_hash": "8463e9395adc16624c7ad6af320023b8"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/CLAUDE.md": {
+    "mtime": 1780917428.3835187,
+    "ast_hash": "770713cd329ce61f41ef65d6f1776491",
+    "semantic_hash": "770713cd329ce61f41ef65d6f1776491"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/docs/superpowers/plans/2026-06-08-portfolio-react-rebuild.md": {
+    "mtime": 1780905841.7332156,
+    "ast_hash": "5893c1d88bb943ab1b2cafb8d017a1f1",
+    "semantic_hash": "5893c1d88bb943ab1b2cafb8d017a1f1"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/docs/superpowers/specs/2026-06-07-claude-md-design.md": {
+    "mtime": 1780897937.5487905,
+    "ast_hash": "1aaeada078e1dad540e52aabb8efb7c9",
+    "semantic_hash": "1aaeada078e1dad540e52aabb8efb7c9"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/docs/superpowers/specs/2026-06-08-portfolio-redesign.md": {
+    "mtime": 1780905593.9848304,
+    "ast_hash": "6d6c2f3bb88b5d38d2eaf7fca952a543",
+    "semantic_hash": "6d6c2f3bb88b5d38d2eaf7fca952a543"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/index.html": {
+    "mtime": 1780897458.4574757,
+    "ast_hash": "667052fb401a2efacf0038b946560060",
+    "semantic_hash": "667052fb401a2efacf0038b946560060"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-30-10-513Z.yml": {
+    "mtime": 1780918210.514213,
+    "ast_hash": "e7669a6a915eb08cbab74cbf6491c2b8",
+    "semantic_hash": "e7669a6a915eb08cbab74cbf6491c2b8"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T08-23-27-428Z.yml": {
+    "mtime": 1780907007.428996,
+    "ast_hash": "62c613045d0acd6f3f325fb11c442072",
+    "semantic_hash": "62c613045d0acd6f3f325fb11c442072"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-29-31-388Z.yml": {
+    "mtime": 1780918171.388372,
+    "ast_hash": "4749e4cb9f317cfcf517bfdc2e8891ed",
+    "semantic_hash": "4749e4cb9f317cfcf517bfdc2e8891ed"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T08-32-01-622Z.yml": {
+    "mtime": 1780907521.6233025,
+    "ast_hash": "845607671a0b1f371dc1e87d5337c080",
+    "semantic_hash": "845607671a0b1f371dc1e87d5337c080"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-50-20-823Z.yml": {
+    "mtime": 1780919420.824235,
+    "ast_hash": "4be012ad4048512f59eb10491e21856a",
+    "semantic_hash": "4be012ad4048512f59eb10491e21856a"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-50-35-299Z.yml": {
+    "mtime": 1780919435.3003135,
+    "ast_hash": "3ebeea9ab0f7651b04e1dcaf5ab1f6b5",
+    "semantic_hash": "3ebeea9ab0f7651b04e1dcaf5ab1f6b5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-00-11-653Z.yml": {
+    "mtime": 1780916411.6536078,
+    "ast_hash": "845607671a0b1f371dc1e87d5337c080",
+    "semantic_hash": "845607671a0b1f371dc1e87d5337c080"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T08-22-20-544Z.yml": {
+    "mtime": 1780906940.5452917,
+    "ast_hash": "ec61a2179068484e27a080f24b6c1107",
+    "semantic_hash": "ec61a2179068484e27a080f24b6c1107"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-06-01-779Z.yml": {
+    "mtime": 1780916761.779777,
+    "ast_hash": "62c613045d0acd6f3f325fb11c442072",
+    "semantic_hash": "62c613045d0acd6f3f325fb11c442072"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-04-09-302Z.yml": {
+    "mtime": 1780916649.3025596,
+    "ast_hash": "a97d43577f1154c476cfb4c95449c8cd",
+    "semantic_hash": "a97d43577f1154c476cfb4c95449c8cd"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-28-57-527Z.yml": {
+    "mtime": 1780918137.5276234,
+    "ast_hash": "2e547ea827a7dc25d12c14673856f6f5",
+    "semantic_hash": "2e547ea827a7dc25d12c14673856f6f5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-28-39-601Z.yml": {
+    "mtime": 1780918119.602246,
+    "ast_hash": "2e547ea827a7dc25d12c14673856f6f5",
+    "semantic_hash": "2e547ea827a7dc25d12c14673856f6f5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T08-13-06-922Z.yml": {
+    "mtime": 1780906386.9228868,
+    "ast_hash": "1690fc033f960379a3e3cc27c31734fb",
+    "semantic_hash": "1690fc033f960379a3e3cc27c31734fb"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T07-44-47-317Z.yml": {
+    "mtime": 1780904687.318404,
+    "ast_hash": "62c613045d0acd6f3f325fb11c442072",
+    "semantic_hash": "62c613045d0acd6f3f325fb11c442072"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-29-48-746Z.yml": {
+    "mtime": 1780918188.7469757,
+    "ast_hash": "4749e4cb9f317cfcf517bfdc2e8891ed",
+    "semantic_hash": "4749e4cb9f317cfcf517bfdc2e8891ed"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-30-05-821Z.yml": {
+    "mtime": 1780918205.8222015,
+    "ast_hash": "4749e4cb9f317cfcf517bfdc2e8891ed",
+    "semantic_hash": "4749e4cb9f317cfcf517bfdc2e8891ed"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-31-27-279Z.yml": {
+    "mtime": 1780918287.2802992,
+    "ast_hash": "2e547ea827a7dc25d12c14673856f6f5",
+    "semantic_hash": "2e547ea827a7dc25d12c14673856f6f5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-31-51-243Z.yml": {
+    "mtime": 1780918311.2442348,
+    "ast_hash": "2e547ea827a7dc25d12c14673856f6f5",
+    "semantic_hash": "2e547ea827a7dc25d12c14673856f6f5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-18-40-289Z.yml": {
+    "mtime": 1780917520.2895987,
+    "ast_hash": "62c613045d0acd6f3f325fb11c442072",
+    "semantic_hash": "62c613045d0acd6f3f325fb11c442072"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-18-54-459Z.yml": {
+    "mtime": 1780917534.460115,
+    "ast_hash": "658103e360b33b57e181ae48b3e5c512",
+    "semantic_hash": "658103e360b33b57e181ae48b3e5c512"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T07-58-37-224Z.yml": {
+    "mtime": 1780905517.2261612,
+    "ast_hash": "62c613045d0acd6f3f325fb11c442072",
+    "semantic_hash": "62c613045d0acd6f3f325fb11c442072"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-29-15-230Z.yml": {
+    "mtime": 1780918155.2312078,
+    "ast_hash": "a2e544fe4b1b697d832d62727fc85056",
+    "semantic_hash": "a2e544fe4b1b697d832d62727fc85056"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-27-22-240Z.yml": {
+    "mtime": 1780918042.2403624,
+    "ast_hash": "2e547ea827a7dc25d12c14673856f6f5",
+    "semantic_hash": "2e547ea827a7dc25d12c14673856f6f5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.superpowers/brainstorm/15831-1780903331/content/design-direction.html": {
+    "mtime": 1780903518.6383595,
+    "ast_hash": "ad2c0c61daa1f5d60afeb6d4cad58b37",
+    "semantic_hash": "ad2c0c61daa1f5d60afeb6d4cad58b37"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.superpowers/brainstorm/15831-1780903331/content/sections.html": {
+    "mtime": 1780903458.3427825,
+    "ast_hash": "a181e5378598328ee422f021d729fc09",
+    "semantic_hash": "a181e5378598328ee422f021d729fc09"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.superpowers/brainstorm/15831-1780903331/content/approach.html": {
+    "mtime": 1780903358.2788193,
+    "ast_hash": "5ebdbf2a80df15279967d573a3df9170",
+    "semantic_hash": "5ebdbf2a80df15279967d573a3df9170"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.superpowers/brainstorm/15831-1780903331/content/waiting-1.html": {
+    "mtime": 1780903547.0878673,
+    "ast_hash": "44b3ae034f564b8ed722d684a274336d",
+    "semantic_hash": "44b3ae034f564b8ed722d684a274336d"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.superpowers/brainstorm/15831-1780903331/content/design-presentation.html": {
+    "mtime": 1780905103.131784,
+    "ast_hash": "e6b134aed4bad0e698f62d30db9d1825",
+    "semantic_hash": "e6b134aed4bad0e698f62d30db9d1825"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/Vaidik_Shah_Resume_.pdf": {
+    "mtime": 1780921226.1018255,
+    "ast_hash": "3bc7f189bd786f1d2a9288ff9f994768",
+    "semantic_hash": "3bc7f189bd786f1d2a9288ff9f994768"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/d/Vaidik_Shah_Resume.pdf": {
+    "mtime": 1780897458.4108357,
+    "ast_hash": "e943ad1720df0ef3c1bd807fa928236d",
+    "semantic_hash": "e943ad1720df0ef3c1bd807fa928236d"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/d/Vaidik Resume_Tech.pdf": {
+    "mtime": 1780897458.4091353,
+    "ast_hash": "9359c2ac20450acc41ccfaafcc987285",
+    "semantic_hash": "9359c2ac20450acc41ccfaafcc987285"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/d/Vaidik Shah Resume.pdf": {
+    "mtime": 1780897458.4099677,
+    "ast_hash": "ff2b169b5e31914e416dcc49cd7bce8c",
+    "semantic_hash": "ff2b169b5e31914e416dcc49cd7bce8c"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/dark-projects.png": {
+    "mtime": 1780918192.1547194,
+    "ast_hash": "f983e072bbd7225e9890857cd375aa71",
+    "semantic_hash": "f983e072bbd7225e9890857cd375aa71"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/hero-v2.png": {
+    "mtime": 1780906943.7048447,
+    "ast_hash": "4058b0de0c097bab50be3f27f8718e2e",
+    "semantic_hash": "4058b0de0c097bab50be3f27f8718e2e"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/img_1.png": {
+    "mtime": 1780897458.3986993,
+    "ast_hash": "77a013d61c2c7569da3dc96b219c4092",
+    "semantic_hash": "77a013d61c2c7569da3dc96b219c4092"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/about-screenshot.png": {
+    "mtime": 1780906456.0508091,
+    "ast_hash": "3eac286e686fa83ec66b54a52a1608df",
+    "semantic_hash": "3eac286e686fa83ec66b54a52a1608df"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/manish-dark.png": {
+    "mtime": 1780917537.6734164,
+    "ast_hash": "7862c7ba3fc91b81d08df3e7e9840fe7",
+    "semantic_hash": "7862c7ba3fc91b81d08df3e7e9840fe7"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/manish-hero.png": {
+    "mtime": 1780904708.2781885,
+    "ast_hash": "235437e3b53e494a53e8112f0947a78c",
+    "semantic_hash": "235437e3b53e494a53e8112f0947a78c"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/fix-hero.png": {
+    "mtime": 1780916653.360313,
+    "ast_hash": "6451283f4149ebd90bee0291c416b348",
+    "semantic_hash": "6451283f4149ebd90bee0291c416b348"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/img_2.png": {
+    "mtime": 1780897458.4012878,
+    "ast_hash": "a6a9849d9445a0691f0593b2008fdc2a",
+    "semantic_hash": "a6a9849d9445a0691f0593b2008fdc2a"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/current-light.png": {
+    "mtime": 1780918044.985087,
+    "ast_hash": "f7963a73036d057259bf679a19ceb4fc",
+    "semantic_hash": "f7963a73036d057259bf679a19ceb4fc"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/img_3.png": {
+    "mtime": 1780897458.4027188,
+    "ast_hash": "9f455d24eb4dd393dd2648ff1f3c2497",
+    "semantic_hash": "9f455d24eb4dd393dd2648ff1f3c2497"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/manish-light.png": {
+    "mtime": 1780917522.633593,
+    "ast_hash": "c092d2a111562640816c2effcc5fab54",
+    "semantic_hash": "c092d2a111562640816c2effcc5fab54"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/manish-projects-ref.png": {
+    "mtime": 1780907046.0229287,
+    "ast_hash": "48990f24b4cffb52597e082a625f0212",
+    "semantic_hash": "48990f24b4cffb52597e082a625f0212"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/final-contact.png": {
+    "mtime": 1780916432.2901688,
+    "ast_hash": "adfff1415c67564e066169d9f059e072",
+    "semantic_hash": "adfff1415c67564e066169d9f059e072"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/manish-exp-ref.png": {
+    "mtime": 1780907079.971968,
+    "ast_hash": "62117dda1d89ca349d43d13ac0109d1b",
+    "semantic_hash": "62117dda1d89ca349d43d13ac0109d1b"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/img_4.png": {
+    "mtime": 1780897458.405464,
+    "ast_hash": "071358995695db063adfce78e8a41860",
+    "semantic_hash": "071358995695db063adfce78e8a41860"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/manish-hero-ref.png": {
+    "mtime": 1780907015.0402322,
+    "ast_hash": "74b8874ad5bf227c8e1e2c7f3164722b",
+    "semantic_hash": "74b8874ad5bf227c8e1e2c7f3164722b"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/about-v2.png": {
+    "mtime": 1780906969.9219842,
+    "ast_hash": "1eb91f1ce9d97e4ac62243bdf6aeca36",
+    "semantic_hash": "1eb91f1ce9d97e4ac62243bdf6aeca36"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/final-exp.png": {
+    "mtime": 1780916423.287232,
+    "ast_hash": "df6afd7e44eef882aee3fc4f3d3f55d8",
+    "semantic_hash": "df6afd7e44eef882aee3fc4f3d3f55d8"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/manish-footer-ref.png": {
+    "mtime": 1780907130.5596888,
+    "ast_hash": "8edd7bf2a6a2669f7d8a095ec74d903a",
+    "semantic_hash": "8edd7bf2a6a2669f7d8a095ec74d903a"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/current-about.png": {
+    "mtime": 1780918124.0430129,
+    "ast_hash": "1e58376ef4cd2dc5c56443203c606df4",
+    "semantic_hash": "1e58376ef4cd2dc5c56443203c606df4"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/about-full.png": {
+    "mtime": 1780906983.2202299,
+    "ast_hash": "0b0d34578215f22dd265e4b6b16dcef1",
+    "semantic_hash": "0b0d34578215f22dd265e4b6b16dcef1"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/v3-hero.png": {
+    "mtime": 1780907526.371398,
+    "ast_hash": "e456d96406398c39d620e23fbc078da2",
+    "semantic_hash": "e456d96406398c39d620e23fbc078da2"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/projects-screenshot.png": {
+    "mtime": 1780906468.629324,
+    "ast_hash": "3b9a4425ac0a03c347b72ad6f8c61af1",
+    "semantic_hash": "3b9a4425ac0a03c347b72ad6f8c61af1"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/manish-dark-full.png": {
+    "mtime": 1780917577.3094735,
+    "ast_hash": "fcfbcd6f11ac7617100192fe881293a0",
+    "semantic_hash": "fcfbcd6f11ac7617100192fe881293a0"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/hero-screenshot.png": {
+    "mtime": 1780906433.8899028,
+    "ast_hash": "d28d95297dc61e149b1ddda7044ab906",
+    "semantic_hash": "d28d95297dc61e149b1ddda7044ab906"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/v3-projects.png": {
+    "mtime": 1780907538.4115999,
+    "ast_hash": "a79cd5ed429b0db728fa11d37d36b7e1",
+    "semantic_hash": "a79cd5ed429b0db728fa11d37d36b7e1"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/light-mode-real.png": {
+    "mtime": 1780918254.503151,
+    "ast_hash": "438f342aa6f3a8edd287e3d5d9d6cec0",
+    "semantic_hash": "438f342aa6f3a8edd287e3d5d9d6cec0"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/light-projects.png": {
+    "mtime": 1780918291.036268,
+    "ast_hash": "ffdf884084fb7374be64105a4b7241fd",
+    "semantic_hash": "ffdf884084fb7374be64105a4b7241fd"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/fixed-light.png": {
+    "mtime": 1780919424.0829983,
+    "ast_hash": "176ec9f6adb34feca0495bcf45c40117",
+    "semantic_hash": "176ec9f6adb34feca0495bcf45c40117"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/dark-hero.png": {
+    "mtime": 1780918161.2161298,
+    "ast_hash": "5a756880fe6584d127ffb3eea446be51",
+    "semantic_hash": "5a756880fe6584d127ffb3eea446be51"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/check-hero.png": {
+    "mtime": 1780918140.9960628,
+    "ast_hash": "13c7d9a1e1b26c6f7fcd23380e20815a",
+    "semantic_hash": "13c7d9a1e1b26c6f7fcd23380e20815a"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/light-check.png": {
+    "mtime": 1780918213.3329914,
+    "ast_hash": "5a756880fe6584d127ffb3eea446be51",
+    "semantic_hash": "5a756880fe6584d127ffb3eea446be51"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/fix-contact.png": {
+    "mtime": 1780916671.4427443,
+    "ast_hash": "dff6cd4c4372f8f13f44b52005b92afc",
+    "semantic_hash": "dff6cd4c4372f8f13f44b52005b92afc"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/dark-about.png": {
+    "mtime": 1780918174.553923,
+    "ast_hash": "4942861edd2748fdb01e147f570ecc88",
+    "semantic_hash": "4942861edd2748fdb01e147f570ecc88"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/skills-screenshot.png": {
+    "mtime": 1780906479.681531,
+    "ast_hash": "a68d7aa497a3347cf900bcbee0ac185c",
+    "semantic_hash": "a68d7aa497a3347cf900bcbee0ac185c"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/v3-exp-edu.png": {
+    "mtime": 1780916406.902454,
+    "ast_hash": "7b05f9d4699d663381adeaba12744af6",
+    "semantic_hash": "7b05f9d4699d663381adeaba12744af6"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/contact-screenshot.png": {
+    "mtime": 1780906494.0330439,
+    "ast_hash": "d3eade35aa1e089fc8b8ea2c368e6f11",
+    "semantic_hash": "d3eade35aa1e089fc8b8ea2c368e6f11"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/light-contact.png": {
+    "mtime": 1780918315.7503095,
+    "ast_hash": "4051f81244f0b32dd12e2adf050af294",
+    "semantic_hash": "4051f81244f0b32dd12e2adf050af294"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/manish-about-ref.png": {
+    "mtime": 1780907028.0436563,
+    "ast_hash": "9786a2d4ac71f2c78c601c88e784bea3",
+    "semantic_hash": "9786a2d4ac71f2c78c601c88e784bea3"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/manish-full.png": {
+    "mtime": 1780904727.578307,
+    "ast_hash": "e7a6c9357c716deeacfbacf399bb8f52",
+    "semantic_hash": "e7a6c9357c716deeacfbacf399bb8f52"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/fixed-dark.png": {
+    "mtime": 1780919439.0086439,
+    "ast_hash": "dcde35d22469bbe5cbcbfa54f5825914",
+    "semantic_hash": "dcde35d22469bbe5cbcbfa54f5825914"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/v3-experience.png": {
+    "mtime": 1780907551.0845082,
+    "ast_hash": "1722535f135368358a3e164f886302d8",
+    "semantic_hash": "1722535f135368358a3e164f886302d8"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/manish-contact-ref.png": {
+    "mtime": 1780907086.9895394,
+    "ast_hash": "37f65f0c0bd6f8844398c0c53beb20ff",
+    "semantic_hash": "37f65f0c0bd6f8844398c0c53beb20ff"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/manish-skills-ref.png": {
+    "mtime": 1780907072.8830476,
+    "ast_hash": "1bcb78e575db74534134e40f2ef9d1d6",
+    "semantic_hash": "1bcb78e575db74534134e40f2ef9d1d6"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/final-hero.png": {
+    "mtime": 1780916415.3064637,
+    "ast_hash": "701d08fbb67c938168ca1750f52fb3f2",
+    "semantic_hash": "701d08fbb67c938168ca1750f52fb3f2"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img_1.png": {
+    "mtime": 1780897458.4505026,
+    "ast_hash": "77a013d61c2c7569da3dc96b219c4092",
+    "semantic_hash": "77a013d61c2c7569da3dc96b219c4092"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/icon.png": {
+    "mtime": 1780897458.41502,
+    "ast_hash": "3c07c85bd0508294b5d7f656a30ebf2c",
+    "semantic_hash": "3c07c85bd0508294b5d7f656a30ebf2c"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img_2.png": {
+    "mtime": 1780897458.452312,
+    "ast_hash": "a6a9849d9445a0691f0593b2008fdc2a",
+    "semantic_hash": "a6a9849d9445a0691f0593b2008fdc2a"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img_3.png": {
+    "mtime": 1780897458.4536254,
+    "ast_hash": "9f455d24eb4dd393dd2648ff1f3c2497",
+    "semantic_hash": "9f455d24eb4dd393dd2648ff1f3c2497"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img_4.png": {
+    "mtime": 1780897458.4551342,
+    "ast_hash": "071358995695db063adfce78e8a41860",
+    "semantic_hash": "071358995695db063adfce78e8a41860"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img_5.png": {
+    "mtime": 1780897458.4573925,
+    "ast_hash": "8d6f7aa8f806e941edc668a1aee93700",
+    "semantic_hash": "8d6f7aa8f806e941edc668a1aee93700"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/games_Logo_tiffany.png": {
+    "mtime": 1780897458.411906,
+    "ast_hash": "6758b0c2845022f06b657b4a036bbe4b",
+    "semantic_hash": "6758b0c2845022f06b657b4a036bbe4b"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/generated-projects/hm-scraper.png": {
+    "mtime": 1780897458.4136558,
+    "ast_hash": "828f9932689496590a74603dc5606c14",
+    "semantic_hash": "828f9932689496590a74603dc5606c14"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/generated-projects/hm-scraper.svg": {
+    "mtime": 1780897458.4137144,
+    "ast_hash": "c871a97a5b5ee47e919cfac3e43a9ad3",
+    "semantic_hash": "c871a97a5b5ee47e919cfac3e43a9ad3"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/generated-projects/nn-scratch.svg": {
+    "mtime": 1780897458.414306,
+    "ast_hash": "c7c97a75181c5c3d8419aeb7d70e1053",
+    "semantic_hash": "c7c97a75181c5c3d8419aeb7d70e1053"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/generated-projects/academic-summarizer.png": {
+    "mtime": 1780897458.4125218,
+    "ast_hash": "2e4c5d55d211b3d35747f979d11ddb6b",
+    "semantic_hash": "2e4c5d55d211b3d35747f979d11ddb6b"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/generated-projects/solar-forecasting.png": {
+    "mtime": 1780897458.4148948,
+    "ast_hash": "43f565fa1a79170cdbc481054fc634ca",
+    "semantic_hash": "43f565fa1a79170cdbc481054fc634ca"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/generated-projects/ai-professor.png": {
+    "mtime": 1780897458.41315,
+    "ast_hash": "f09c9affa62c133acd0980668eaad8dd",
+    "semantic_hash": "f09c9affa62c133acd0980668eaad8dd"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/generated-projects/ai-professor.svg": {
+    "mtime": 1780897458.4132109,
+    "ast_hash": "e59d30a27d74924e34a4730a948070ce",
+    "semantic_hash": "e59d30a27d74924e34a4730a948070ce"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/generated-projects/solar-forecasting.svg": {
+    "mtime": 1780897458.4149592,
+    "ast_hash": "1d8316492209c2a0808140751e2e433c",
+    "semantic_hash": "1d8316492209c2a0808140751e2e433c"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/generated-projects/academic-summarizer.svg": {
+    "mtime": 1780897458.412579,
+    "ast_hash": "a977493b9dcaf62bca9068a01df95b22",
+    "semantic_hash": "a977493b9dcaf62bca9068a01df95b22"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/generated-projects/nn-scratch.png": {
+    "mtime": 1780897458.4142454,
+    "ast_hash": "b3c5d42cdd5d25d1b29bd67cf9c444af",
+    "semantic_hash": "b3c5d42cdd5d25d1b29bd67cf9c444af"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/avatar-tiffany.png": {
+    "mtime": 1780897458.4244719,
+    "ast_hash": "1a541dc1ef21ec59fe607adca261e5b8",
+    "semantic_hash": "1a541dc1ef21ec59fe607adca261e5b8"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/games_Logo.png": {
+    "mtime": 1780897458.4277132,
+    "ast_hash": "c324b6a2c674984b984e100c8557d2ea",
+    "semantic_hash": "c324b6a2c674984b984e100c8557d2ea"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/resume-photo.png": {
+    "mtime": 1780897458.4294343,
+    "ast_hash": "46efd363b4b75bcf98845ea044a8bc01",
+    "semantic_hash": "46efd363b4b75bcf98845ea044a8bc01"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/avv.png": {
+    "mtime": 1780897458.4270945,
+    "ast_hash": "6fc7b3412cbc95e7a54ce0e86a417dcd",
+    "semantic_hash": "6fc7b3412cbc95e7a54ce0e86a417dcd"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/avatar.png": {
+    "mtime": 1780897458.4245722,
+    "ast_hash": "84269bed4adc1dafa34e097c2c15b431",
+    "semantic_hash": "84269bed4adc1dafa34e097c2c15b431"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/avatar-og.PNG": {
+    "mtime": 1780897458.4243612,
+    "ast_hash": "c9f66d222f66692bbbfa7ef433c629c9",
+    "semantic_hash": "c9f66d222f66692bbbfa7ef433c629c9"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/my.jpg": {
+    "mtime": 1780897458.4278924,
+    "ast_hash": "cfa5ae6872aeb876cdd3ac600e34a4e4",
+    "semantic_hash": "cfa5ae6872aeb876cdd3ac600e34a4e4"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/vaidik.jpg": {
+    "mtime": 1780897458.4468453,
+    "ast_hash": "83dd17f3c59bf3fa3e18ff30d1793451",
+    "semantic_hash": "83dd17f3c59bf3fa3e18ff30d1793451"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/atek_on_mars/ss1.JPG": {
+    "mtime": 1780897458.4240506,
+    "ast_hash": "0a23208e32006901bf011c5e8d70ce75",
+    "semantic_hash": "0a23208e32006901bf011c5e8d70ce75"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/atek_on_mars/ss2.JPG": {
+    "mtime": 1780897458.4242997,
+    "ast_hash": "3edd98c12283dda2a59fe224b07acd43",
+    "semantic_hash": "3edd98c12283dda2a59fe224b07acd43"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/atek_on_mars/a1.gif": {
+    "mtime": 1780897458.4234219,
+    "ast_hash": "9457fb91d95fbbdc4373a9292ae197b5",
+    "semantic_hash": "9457fb91d95fbbdc4373a9292ae197b5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/projects/project-8-icon.png": {
+    "mtime": 1780897458.4289355,
+    "ast_hash": "4baa6c0ff1665cb955b08968d4d1ff74",
+    "semantic_hash": "4baa6c0ff1665cb955b08968d4d1ff74"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/projects/project-9-icon.png": {
+    "mtime": 1780897458.429026,
+    "ast_hash": "7584da56277e4d1e1a5c7b3dfea9a3f5",
+    "semantic_hash": "7584da56277e4d1e1a5c7b3dfea9a3f5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/projects/project-2-icon.png": {
+    "mtime": 1780897458.4282904,
+    "ast_hash": "bbd874c28cbcd1d3a0dc11eecd150442",
+    "semantic_hash": "bbd874c28cbcd1d3a0dc11eecd150442"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/projects/project-3-icon.png": {
+    "mtime": 1780897458.4284823,
+    "ast_hash": "6f1fd2e9bfa8284fb883d40ff48dcab5",
+    "semantic_hash": "6f1fd2e9bfa8284fb883d40ff48dcab5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/projects/ms-store-logo.png": {
+    "mtime": 1780897458.4279706,
+    "ast_hash": "bf8f2ae945c797bb4abb88a4875646c3",
+    "semantic_hash": "bf8f2ae945c797bb4abb88a4875646c3"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/projects/project-5-icon.png": {
+    "mtime": 1780897458.4287186,
+    "ast_hash": "85e2aabae070a9bf54045a6da173cdd3",
+    "semantic_hash": "85e2aabae070a9bf54045a6da173cdd3"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/projects/project-4-icon.png": {
+    "mtime": 1780897458.4286163,
+    "ast_hash": "da4b0ef1b407fd248cf7ac4ccc5e3b94",
+    "semantic_hash": "da4b0ef1b407fd248cf7ac4ccc5e3b94"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/projects/project-1-icon.png": {
+    "mtime": 1780897458.428126,
+    "ast_hash": "2893f0fcdd1f51a6390eb9e2975a020a",
+    "semantic_hash": "2893f0fcdd1f51a6390eb9e2975a020a"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/projects/project-6-icon.png": {
+    "mtime": 1780897458.4287832,
+    "ast_hash": "2f91a398f4faa602a8156223da19eaaa",
+    "semantic_hash": "2f91a398f4faa602a8156223da19eaaa"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/projects/project-7-icon.png": {
+    "mtime": 1780897458.4288673,
+    "ast_hash": "00cd1df661008982447d859afd65cbed",
+    "semantic_hash": "00cd1df661008982447d859afd65cbed"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/projects/play-store-logo.png": {
+    "mtime": 1780897458.4280143,
+    "ast_hash": "ec3a5e7388a8c747176e7786e6dd791b",
+    "semantic_hash": "ec3a5e7388a8c747176e7786e6dd791b"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/the_gatherer/ss2.png": {
+    "mtime": 1780897458.4418914,
+    "ast_hash": "0e75059d86bf9ec6df9554842114ed21",
+    "semantic_hash": "0e75059d86bf9ec6df9554842114ed21"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/the_gatherer/ss4.png": {
+    "mtime": 1780897458.4465759,
+    "ast_hash": "2548390306a1633850e6cda1ad0baff3",
+    "semantic_hash": "2548390306a1633850e6cda1ad0baff3"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/the_gatherer/ss1.gif": {
+    "mtime": 1780897458.441728,
+    "ast_hash": "cb20c02bd8cf87e8c32d133020094331",
+    "semantic_hash": "cb20c02bd8cf87e8c32d133020094331"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/the_gatherer/ss3.gif": {
+    "mtime": 1780897458.4464417,
+    "ast_hash": "a49f49e9d350b9cbb4d3d8e672c1af88",
+    "semantic_hash": "a49f49e9d350b9cbb4d3d8e672c1af88"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/Flappy/ss1.gif": {
+    "mtime": 1780897458.4165983,
+    "ast_hash": "12aa57a9556c19f679657056287bdd89",
+    "semantic_hash": "12aa57a9556c19f679657056287bdd89"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/Flappy/ss4.gif": {
+    "mtime": 1780897458.4214513,
+    "ast_hash": "9d44b86f8318f7de909bbaf210cb2854",
+    "semantic_hash": "9d44b86f8318f7de909bbaf210cb2854"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/skyline_rider/ss1.png": {
+    "mtime": 1780897458.4320536,
+    "ast_hash": "a15e8be05a66f64f05c255548d22bc34",
+    "semantic_hash": "a15e8be05a66f64f05c255548d22bc34"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/skyline_rider/ss3.png": {
+    "mtime": 1780897458.4360917,
+    "ast_hash": "0500b67408b28cec22e2d94cc72c9b34",
+    "semantic_hash": "0500b67408b28cec22e2d94cc72c9b34"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/skyline_rider/ss1.gif": {
+    "mtime": 1780897458.4309754,
+    "ast_hash": "52d039810d3a221adec254e517cedc69",
+    "semantic_hash": "52d039810d3a221adec254e517cedc69"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/img/skyline_rider/ss2.gif": {
+    "mtime": 1780897458.4359663,
+    "ast_hash": "6a58e6437edf7f674330145ce2f172f3",
+    "semantic_hash": "6a58e6437edf7f674330145ce2f172f3"
+  }
+}

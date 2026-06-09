@@ -1,0 +1,252 @@
+{
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/tsconfig.node.json": {
+    "mtime": 1780906068.0057752,
+    "ast_hash": "767b2e9abe6452170cdc399ca052cfbc",
+    "semantic_hash": "767b2e9abe6452170cdc399ca052cfbc"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/vercel.json": {
+    "mtime": 1780906280.2400358,
+    "ast_hash": "a2272c90a8f0633adced79cc098ac293",
+    "semantic_hash": "a2272c90a8f0633adced79cc098ac293"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/tailwind.config.ts": {
+    "mtime": 1780917837.2322621,
+    "ast_hash": "6322b69b66bb6de8eef11c0293fb4326",
+    "semantic_hash": "6322b69b66bb6de8eef11c0293fb4326"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/package.json": {
+    "mtime": 1780906043.7894228,
+    "ast_hash": "95b9ee016ca3eb254da135313a109672",
+    "semantic_hash": "95b9ee016ca3eb254da135313a109672"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.eslintrc.js": {
+    "mtime": 1780897458.342507,
+    "ast_hash": "f3ae682b5ddda62d32b301ee7df1ad5d",
+    "semantic_hash": "f3ae682b5ddda62d32b301ee7df1ad5d"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/tsconfig.json": {
+    "mtime": 1780906048.8602345,
+    "ast_hash": "579ad3ccc41c7bacd1a7373c858e40ea",
+    "semantic_hash": "579ad3ccc41c7bacd1a7373c858e40ea"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/vite.config.ts": {
+    "mtime": 1780906055.2771385,
+    "ast_hash": "e52642322c1ba92ce948ce3cd9b6b739",
+    "semantic_hash": "e52642322c1ba92ce948ce3cd9b6b739"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/postcss.config.js": {
+    "mtime": 1780906064.1904044,
+    "ast_hash": "4acb6a30c0858e1e9ceb649da060dca5",
+    "semantic_hash": "4acb6a30c0858e1e9ceb649da060dca5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/App.tsx": {
+    "mtime": 1780919953.3898501,
+    "ast_hash": "7e11b14ff98a3683dd2a27cf98f4064f",
+    "semantic_hash": "7e11b14ff98a3683dd2a27cf98f4064f"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/main.tsx": {
+    "mtime": 1780906094.378577,
+    "ast_hash": "aa122bdcf833a2c00fdf9ca8e5348675",
+    "semantic_hash": "aa122bdcf833a2c00fdf9ca8e5348675"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Projects.tsx": {
+    "mtime": 1780920649.354815,
+    "ast_hash": "dec90222b7fb972903b313e0ed7eae6c",
+    "semantic_hash": "dec90222b7fb972903b313e0ed7eae6c"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Hero.tsx": {
+    "mtime": 1780964948.8507352,
+    "ast_hash": "04993662502b7a1323051b0138b36093",
+    "semantic_hash": ""
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Nav.tsx": {
+    "mtime": 1780966904.1789188,
+    "ast_hash": "9ec700c598fe26b8f84fe59e039c18ba",
+    "semantic_hash": ""
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Experience.tsx": {
+    "mtime": 1780966296.9835546,
+    "ast_hash": "6f6c1abfe21592fa78ecdd05abdbeed0",
+    "semantic_hash": ""
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Contact.tsx": {
+    "mtime": 1780917995.565999,
+    "ast_hash": "855a67438ce0aab199f8d93d55d277a9",
+    "semantic_hash": "855a67438ce0aab199f8d93d55d277a9"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Footer.tsx": {
+    "mtime": 1780918000.8672109,
+    "ast_hash": "be9cabb7b5ec736a889cf04bdadc7c1f",
+    "semantic_hash": "be9cabb7b5ec736a889cf04bdadc7c1f"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Skills.tsx": {
+    "mtime": 1780921275.0676992,
+    "ast_hash": "84fc6dde32bd90046dd88bb9f516cb5c",
+    "semantic_hash": "84fc6dde32bd90046dd88bb9f516cb5c"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Education.tsx": {
+    "mtime": 1780966485.3907413,
+    "ast_hash": "955e4cc396cceff39af9396f883541c7",
+    "semantic_hash": ""
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/About.tsx": {
+    "mtime": 1780965277.246062,
+    "ast_hash": "09e1347482332876bc431bca189489cd",
+    "semantic_hash": ""
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/data/projects.ts": {
+    "mtime": 1780965879.2543998,
+    "ast_hash": "f20d48edb466f61548cd23dfb0da4bb9",
+    "semantic_hash": ""
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/data/education.ts": {
+    "mtime": 1780921022.4862118,
+    "ast_hash": "ee640d781b2e865a2ae1b5d03e51a814",
+    "semantic_hash": "ee640d781b2e865a2ae1b5d03e51a814"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/data/experience.ts": {
+    "mtime": 1780966291.356418,
+    "ast_hash": "dfc39b88a2abafb1667c8528fd88f410",
+    "semantic_hash": ""
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/data/skills.ts": {
+    "mtime": 1780921009.6561527,
+    "ast_hash": "565b93a64d7bdcf59579db51447db719",
+    "semantic_hash": "565b93a64d7bdcf59579db51447db719"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/index.html": {
+    "mtime": 1780919333.6751275,
+    "ast_hash": "f9763c796a00620b736f61b0ecd83256",
+    "semantic_hash": "f9763c796a00620b736f61b0ecd83256"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/README.md": {
+    "mtime": 1780897458.3429277,
+    "ast_hash": "8463e9395adc16624c7ad6af320023b8",
+    "semantic_hash": "8463e9395adc16624c7ad6af320023b8"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/CLAUDE.md": {
+    "mtime": 1780966923.5437114,
+    "ast_hash": "6d88be4a24cb9ca04b95ad093b8a756d",
+    "semantic_hash": ""
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-30-10-513Z.yml": {
+    "mtime": 1780918210.514213,
+    "ast_hash": "e7669a6a915eb08cbab74cbf6491c2b8",
+    "semantic_hash": "e7669a6a915eb08cbab74cbf6491c2b8"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T08-23-27-428Z.yml": {
+    "mtime": 1780907007.428996,
+    "ast_hash": "62c613045d0acd6f3f325fb11c442072",
+    "semantic_hash": "62c613045d0acd6f3f325fb11c442072"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-29-31-388Z.yml": {
+    "mtime": 1780918171.388372,
+    "ast_hash": "4749e4cb9f317cfcf517bfdc2e8891ed",
+    "semantic_hash": "4749e4cb9f317cfcf517bfdc2e8891ed"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T08-32-01-622Z.yml": {
+    "mtime": 1780907521.6233025,
+    "ast_hash": "845607671a0b1f371dc1e87d5337c080",
+    "semantic_hash": "845607671a0b1f371dc1e87d5337c080"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-50-20-823Z.yml": {
+    "mtime": 1780919420.824235,
+    "ast_hash": "4be012ad4048512f59eb10491e21856a",
+    "semantic_hash": "4be012ad4048512f59eb10491e21856a"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-50-35-299Z.yml": {
+    "mtime": 1780919435.3003135,
+    "ast_hash": "3ebeea9ab0f7651b04e1dcaf5ab1f6b5",
+    "semantic_hash": "3ebeea9ab0f7651b04e1dcaf5ab1f6b5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-00-11-653Z.yml": {
+    "mtime": 1780916411.6536078,
+    "ast_hash": "845607671a0b1f371dc1e87d5337c080",
+    "semantic_hash": "845607671a0b1f371dc1e87d5337c080"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T08-22-20-544Z.yml": {
+    "mtime": 1780906940.5452917,
+    "ast_hash": "ec61a2179068484e27a080f24b6c1107",
+    "semantic_hash": "ec61a2179068484e27a080f24b6c1107"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-06-01-779Z.yml": {
+    "mtime": 1780916761.779777,
+    "ast_hash": "62c613045d0acd6f3f325fb11c442072",
+    "semantic_hash": "62c613045d0acd6f3f325fb11c442072"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-04-09-302Z.yml": {
+    "mtime": 1780916649.3025596,
+    "ast_hash": "a97d43577f1154c476cfb4c95449c8cd",
+    "semantic_hash": "a97d43577f1154c476cfb4c95449c8cd"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-28-57-527Z.yml": {
+    "mtime": 1780918137.5276234,
+    "ast_hash": "2e547ea827a7dc25d12c14673856f6f5",
+    "semantic_hash": "2e547ea827a7dc25d12c14673856f6f5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-28-39-601Z.yml": {
+    "mtime": 1780918119.602246,
+    "ast_hash": "2e547ea827a7dc25d12c14673856f6f5",
+    "semantic_hash": "2e547ea827a7dc25d12c14673856f6f5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T08-13-06-922Z.yml": {
+    "mtime": 1780906386.9228868,
+    "ast_hash": "1690fc033f960379a3e3cc27c31734fb",
+    "semantic_hash": "1690fc033f960379a3e3cc27c31734fb"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T07-44-47-317Z.yml": {
+    "mtime": 1780904687.318404,
+    "ast_hash": "62c613045d0acd6f3f325fb11c442072",
+    "semantic_hash": "62c613045d0acd6f3f325fb11c442072"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-29-48-746Z.yml": {
+    "mtime": 1780918188.7469757,
+    "ast_hash": "4749e4cb9f317cfcf517bfdc2e8891ed",
+    "semantic_hash": "4749e4cb9f317cfcf517bfdc2e8891ed"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-30-05-821Z.yml": {
+    "mtime": 1780918205.8222015,
+    "ast_hash": "4749e4cb9f317cfcf517bfdc2e8891ed",
+    "semantic_hash": "4749e4cb9f317cfcf517bfdc2e8891ed"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-31-27-279Z.yml": {
+    "mtime": 1780918287.2802992,
+    "ast_hash": "2e547ea827a7dc25d12c14673856f6f5",
+    "semantic_hash": "2e547ea827a7dc25d12c14673856f6f5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-31-51-243Z.yml": {
+    "mtime": 1780918311.2442348,
+    "ast_hash": "2e547ea827a7dc25d12c14673856f6f5",
+    "semantic_hash": "2e547ea827a7dc25d12c14673856f6f5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-18-40-289Z.yml": {
+    "mtime": 1780917520.2895987,
+    "ast_hash": "62c613045d0acd6f3f325fb11c442072",
+    "semantic_hash": "62c613045d0acd6f3f325fb11c442072"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-18-54-459Z.yml": {
+    "mtime": 1780917534.460115,
+    "ast_hash": "658103e360b33b57e181ae48b3e5c512",
+    "semantic_hash": "658103e360b33b57e181ae48b3e5c512"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T07-58-37-224Z.yml": {
+    "mtime": 1780905517.2261612,
+    "ast_hash": "62c613045d0acd6f3f325fb11c442072",
+    "semantic_hash": "62c613045d0acd6f3f325fb11c442072"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-29-15-230Z.yml": {
+    "mtime": 1780918155.2312078,
+    "ast_hash": "a2e544fe4b1b697d832d62727fc85056",
+    "semantic_hash": "a2e544fe4b1b697d832d62727fc85056"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/.playwright-mcp/page-2026-06-08T11-27-22-240Z.yml": {
+    "mtime": 1780918042.2403624,
+    "ast_hash": "2e547ea827a7dc25d12c14673856f6f5",
+    "semantic_hash": "2e547ea827a7dc25d12c14673856f6f5"
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/Vaidik_Shah_Resume_.pdf": {
+    "mtime": 1780921226.1018255,
+    "ast_hash": "3bc7f189bd786f1d2a9288ff9f994768",
+    "semantic_hash": "3bc7f189bd786f1d2a9288ff9f994768"
+  }
+}

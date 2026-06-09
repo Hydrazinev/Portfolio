@@ -1,0 +1,270 @@
+- main [ref=e3]:
+  - navigation [ref=e5]:
+    - link "M Manish Thapa" [ref=e6] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e7]: M
+      - generic [ref=e8]: Manish Thapa
+    - generic [ref=e9]:
+      - link "About" [ref=e10] [cursor=pointer]:
+        - /url: "#about"
+      - link "Projects" [ref=e11] [cursor=pointer]:
+        - /url: "#projects"
+      - link "Skills" [ref=e12] [cursor=pointer]:
+        - /url: "#skills"
+      - link "Experience" [ref=e13] [cursor=pointer]:
+        - /url: "#experience"
+      - link "Notes" [ref=e14] [cursor=pointer]:
+        - /url: "#notes"
+      - link "Contact" [ref=e15] [cursor=pointer]:
+        - /url: "#contact"
+    - generic [ref=e16]:
+      - link "resume" [ref=e17] [cursor=pointer]:
+        - /url: /resume.pdf
+      - button "Switch to dark mode" [ref=e18]:
+        - generic [ref=e19]: ☀️
+      - link "say hi" [ref=e20] [cursor=pointer]:
+        - /url: "#contact"
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - paragraph [ref=e23]:
+        - img [ref=e24]
+        - text: backend systems · distributed infra · incoming X intern
+      - heading "I build systems with clean APIs and a little soul." [level=1] [ref=e27]:
+        - text: I build systems with
+        - generic [ref=e28]: clean APIs
+        - text: and a little soul.
+      - paragraph [ref=e29]: Hi, I’m Manish. I’m a backend and distributed systems engineer, CS grad student at San Diego State University, and incoming intern at X, the moonshot factory. I build reliable services, event-driven platforms, and engineering notes from the messy middle of real systems.
+      - generic [ref=e30]:
+        - link "Open case files" [ref=e31] [cursor=pointer]:
+          - /url: "#projects"
+          - text: Open case files
+          - img [ref=e32]
+        - link "Read field notes" [ref=e35] [cursor=pointer]:
+          - /url: "#notes"
+      - generic [ref=e36]:
+        - generic [ref=e37]: Java
+        - generic [ref=e38]: Kotlin
+        - generic [ref=e39]: Kafka
+        - generic [ref=e40]: Spring Boot
+        - generic [ref=e41]: Docker
+        - generic [ref=e42]: AWS
+        - generic [ref=e43]: PostgreSQL
+    - generic [ref=e44]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: ✦
+          - generic [ref=e49]: ✶
+          - generic [ref=e50]: ✧
+        - generic [ref=e55]:
+          - generic [ref=e60]: night build
+          - generic [ref=e61]: compiling...
+        - paragraph [ref=e63]: lights.dim() bugs.hide() ship.anyway()
+      - code [ref=e70]: "$ whoami manish: backend_systems_engineer $ currently MS CS @ SDSU $ next_stop X, the moonshot factory"
+  - generic [ref=e71]:
+    - generic [ref=e72]:
+      - paragraph [ref=e73]: 01 · About
+      - heading "A portfolio that behaves like a field notebook." [level=2] [ref=e74]
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - img [ref=e77]
+        - paragraph [ref=e79]: I’m a CS grad student at San Diego State University, backend engineer, and incoming intern at X, the moonshot factory. I’ve built production microservices, event-driven retail platforms, and developer-facing tools, and I like systems that stay calm when traffic gets rude.
+      - generic [ref=e80]:
+        - paragraph [ref=e82]:
+          - generic [ref=e83]: note 1
+          - text: Incoming intern at X, the moonshot factory.
+        - paragraph [ref=e85]:
+          - generic [ref=e86]: note 2
+          - text: Previously built production backend systems at Target handling millions of daily transactions.
+        - paragraph [ref=e88]:
+          - generic [ref=e89]: note 3
+          - text: Currently exploring distributed systems, platform engineering, and AI-assisted developer tools.
+  - generic [ref=e90]:
+    - generic [ref=e91]:
+      - paragraph [ref=e92]: 02 · Projects
+      - heading "Selected case files from the lab." [level=2] [ref=e93]
+    - generic [ref=e94]:
+      - article [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e98]: case-001
+            - generic [ref=e99]: BUILT
+          - paragraph [ref=e100]: Backend Systems
+        - heading "Real-Time Chat Platform" [level=3] [ref=e101]
+        - paragraph [ref=e102]: Real-time messaging needs low-latency connections, clean room semantics, and predictable backend behavior.
+        - paragraph [ref=e103]: Built a scalable chat platform with rooms, file sharing, WebSocket endpoints, Redis caching, and Spring Security. Designed the backend to handle 1K+ concurrent connections.
+        - generic [ref=e104]:
+          - generic [ref=e105]: Java
+          - generic [ref=e106]: Spring Boot
+          - generic [ref=e107]: WebSockets
+          - generic [ref=e108]: Docker
+          - generic [ref=e109]: PostgreSQL
+          - generic [ref=e110]: Redis
+        - link "Open case file" [ref=e111] [cursor=pointer]:
+          - /url: "#contact"
+          - text: Open case file
+          - img [ref=e112]
+      - article [ref=e115]:
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: case-002
+            - generic [ref=e119]: DEPLOYED
+          - paragraph [ref=e120]: RAG Application
+        - heading "AI Document Assistant" [level=3] [ref=e121]
+        - paragraph [ref=e122]: People do not want to manually dig through documents when a good retrieval layer can do the boring part.
+        - paragraph [ref=e123]: Developed a context-aware RAG Q&A system deployed on Streamlit Cloud with 200+ users. Optimized FAISS retrieval for 40% faster queries and 85%+ answer accuracy.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Python
+          - generic [ref=e126]: LangChain
+          - generic [ref=e127]: OpenAI API
+          - generic [ref=e128]: FAISS
+          - generic [ref=e129]: Streamlit
+        - link "Open case file" [ref=e130] [cursor=pointer]:
+          - /url: "#contact"
+          - text: Open case file
+          - img [ref=e131]
+      - article [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e137]: case-003
+            - generic [ref=e138]: PRODUCTION
+          - paragraph [ref=e139]: Event-Driven Systems
+        - heading "Retail Exchange Platform" [level=3] [ref=e140]
+        - paragraph [ref=e141]: Legacy return-and-rebuy workflows created friction for customers and complexity for retail operations.
+        - paragraph [ref=e142]: Built real-time exchange capability using event-driven Kafka architecture, handling 100K+ daily exchanges with transactional guarantees.
+        - generic [ref=e143]:
+          - generic [ref=e144]: Kafka
+          - generic [ref=e145]: Microservices
+          - generic [ref=e146]: Kotlin
+          - generic [ref=e147]: Java
+          - generic [ref=e148]: Cassandra
+          - generic [ref=e149]: Redis
+        - link "Open case file" [ref=e150] [cursor=pointer]:
+          - /url: "#contact"
+          - text: Open case file
+          - img [ref=e151]
+  - generic [ref=e154]:
+    - generic [ref=e155]:
+      - paragraph [ref=e156]: 03 · Skills
+      - heading "Tools, grouped like a sane person packed them." [level=2] [ref=e157]
+    - generic [ref=e158]:
+      - generic [ref=e159]:
+        - heading "Backend systems" [level=3] [ref=e160]:
+          - img [ref=e161]
+          - text: Backend systems
+        - generic [ref=e164]:
+          - generic [ref=e165]: Java
+          - generic [ref=e166]: Kotlin
+          - generic [ref=e167]: Spring Boot
+          - generic [ref=e168]: Micronaut
+          - generic [ref=e169]: REST APIs
+          - generic [ref=e170]: Microservices
+      - generic [ref=e171]:
+        - heading "Distributed machinery" [level=3] [ref=e172]:
+          - img [ref=e173]
+          - text: Distributed machinery
+        - generic [ref=e176]:
+          - generic [ref=e177]: Kafka
+          - generic [ref=e178]: Cassandra
+          - generic [ref=e179]: Redis
+          - generic [ref=e180]: PostgreSQL
+          - generic [ref=e181]: Distributed Tracing
+      - generic [ref=e182]:
+        - heading "Cloud and reliability" [level=3] [ref=e183]:
+          - img [ref=e184]
+          - text: Cloud and reliability
+        - generic [ref=e187]:
+          - generic [ref=e188]: AWS
+          - generic [ref=e189]: GCP
+          - generic [ref=e190]: Docker
+          - generic [ref=e191]: Kubernetes
+          - generic [ref=e192]: CI/CD
+          - generic [ref=e193]: Grafana
+          - generic [ref=e194]: ELK Stack
+      - generic [ref=e195]:
+        - heading "AI and product craft" [level=3] [ref=e196]:
+          - img [ref=e197]
+          - text: AI and product craft
+        - generic [ref=e200]:
+          - generic [ref=e201]: Python
+          - generic [ref=e202]: LangChain
+          - generic [ref=e203]: OpenAI API
+          - generic [ref=e204]: FAISS
+          - generic [ref=e205]: React
+          - generic [ref=e206]: TypeScript
+  - generic [ref=e207]:
+    - generic [ref=e208]:
+      - paragraph [ref=e209]: 04 · Experience
+      - heading "From production systems to moonshot engineering." [level=2] [ref=e210]
+    - generic [ref=e211]:
+      - article [ref=e212]:
+        - paragraph [ref=e214]: Jun 2026 to Aug 2026
+        - generic [ref=e215]:
+          - heading "Incoming Intern" [level=3] [ref=e216]
+          - paragraph [ref=e217]: X, the moonshot factory
+          - paragraph [ref=e218]: Joining X for a summer internship focused on ambitious technology, rapid learning, and moonshot-flavored engineering.
+      - article [ref=e219]:
+        - paragraph [ref=e221]: Mar 2022 to Jun 2025
+        - generic [ref=e222]:
+          - heading "Software Engineer" [level=3] [ref=e223]
+          - paragraph [ref=e224]: Target Corporation
+          - paragraph [ref=e225]: Engineered microservices for a Priority One retail platform processing 5M+ daily transactions with 99.95%+ uptime. Worked on Kafka-based exchange flows, checkout reliability, CI/CD, P99 latency improvements, and production incident response.
+      - article [ref=e226]:
+        - paragraph [ref=e228]: Aug 2025 to Aug 2027
+        - generic [ref=e229]:
+          - heading "MS Computer Science Student" [level=3] [ref=e230]
+          - paragraph [ref=e231]: San Diego State University
+          - paragraph [ref=e232]: Pursuing graduate study in computer science with interests in distributed systems, platform engineering, backend architecture, and performance optimization.
+      - article [ref=e233]:
+        - paragraph [ref=e235]: Jan 2022 to Mar 2022
+        - generic [ref=e236]:
+          - heading "Programmer Analyst Trainee" [level=3] [ref=e237]
+          - paragraph [ref=e238]: Cognizant Technology Solutions
+          - paragraph [ref=e239]: Built cloud ETL pipelines using Python and Informatica, improving reporting accuracy and reducing processing time.
+  - generic [ref=e240]:
+    - generic [ref=e241]:
+      - paragraph [ref=e242]: 05 · Field Notes
+      - heading "Tiny dispatches from the engineering trenches." [level=2] [ref=e243]
+    - generic [ref=e244]:
+      - article [ref=e245]:
+        - img [ref=e246]
+        - heading "What I learned debugging backend systems" [level=3] [ref=e248]
+        - paragraph [ref=e249]: A note about logs, patience, and why the bug is usually hiding where you were too confident.
+      - article [ref=e250]:
+        - img [ref=e251]
+        - heading "The coffee-to-code conversion rate" [level=3] [ref=e253]
+        - paragraph [ref=e254]: Unscientific, emotionally accurate, and probably not peer reviewed.
+      - article [ref=e255]:
+        - img [ref=e256]
+        - heading "Writing to understand engineering" [level=3] [ref=e258]
+        - paragraph [ref=e259]: The best way to learn something is to explain it without sounding like a documentation goblin.
+  - generic [ref=e262]:
+    - generic [ref=e263]:
+      - paragraph [ref=e264]:
+        - img [ref=e265]
+        - text: San Diego, CA
+      - heading "Got a backend problem, moonshot idea, or excellent debugging story?" [level=2] [ref=e268]
+      - paragraph [ref=e269]: I’m always happy to talk distributed systems, backend engineering, internships, research, developer tools, weird production bugs, and ideas that sound slightly too ambitious at first.
+      - generic [ref=e270]:
+        - link "Email me" [ref=e271] [cursor=pointer]:
+          - /url: mailto:thapamanish.grad@sdsu.edu
+          - img [ref=e272]
+          - text: Email me
+        - link "GitHub" [ref=e275] [cursor=pointer]:
+          - /url: https://github.com/thapamanish
+          - img [ref=e276]
+          - text: GitHub
+        - link "LinkedIn" [ref=e278] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/iammanish041
+          - img [ref=e279]
+          - text: LinkedIn
+    - generic [ref=e283]:
+      - generic [ref=e295]: ping
+      - img [ref=e303]
+      - generic [ref=e306]: "signal: strong"
+      - generic [ref=e307]: "reply latency: low"
+      - generic [ref=e308]: ✦
+      - generic [ref=e309]: ✶
+      - generic [ref=e310]: ✧
+  - generic [ref=e312]:
+    - paragraph [ref=e313]: Built like a field notebook. Shipped with curiosity.
+    - paragraph [ref=e314]: © 2026 Manish Thapa. No beige templates harmed.

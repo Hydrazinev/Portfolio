@@ -1,0 +1,228 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background-color: #f8f1df;
+    color: #181512;
+    font-family: 'Inter', ui-sans-serif, system-ui;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 900; line-height: 1.02; letter-spacing: -0.02em; }
+  h2 { font-size: clamp(2rem, 5vw, 3.75rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; }
+}
+
+@layer components {
+  .notebook-grid {
+    background-image:
+      repeating-linear-gradient(rgba(24,21,18,0.06) 0 1px, transparent 1px 100%),
+      repeating-linear-gradient(90deg, rgba(24,21,18,0.06) 0 1px, transparent 1px 100%);
+    background-size: 32px 32px;
+  }
+
+  .paper-card {
+    background: #fffaf0;
+    border: 2px solid #181512;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 0 #181512;
+  }
+
+  .paper-card-sm {
+    background: #fffaf0;
+    border: 2px solid #181512;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 0 #181512;
+  }
+
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 2px solid #181512;
+    border-radius: 9999px;
+    padding: 0.375rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    transition: transform 0.15s, box-shadow 0.15s;
+  }
+
+  .pill:hover {
+    transform: translateY(-2px);
+    box-shadow: 3px 5px 0 #181512;
+  }
+
+  .pill-filled {
+    background: #181512;
+    color: #f8f1df;
+    border-color: #181512;
+    box-shadow: 4px 4px 0 #ffd166;
+  }
+
+  .pill-filled:hover {
+    transform: translateY(-2px);
+    box-shadow: 4px 6px 0 #ffd166;
+  }
+
+  .sketch-underline {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #ffd166;
+    text-underline-offset: 6px;
+  }
+
+  .paper-card-soft {
+    border: 2px solid #181512;
+    box-shadow: 4px 4px 0 #181512;
+  }
+
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #6f4d00;
+    margin-bottom: 1rem;
+  }
+}
+
+/* ── Dark mode ──────────────────────────────────── */
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+  color: #f8f1df;
+}
+
+.dark-mode body {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255,209,102,0.08), transparent 28rem),
+    radial-gradient(circle at 85% 10%, rgba(144,224,239,0.1), transparent 26rem),
+    radial-gradient(circle at 50% 100%, rgba(255,173,173,0.08), transparent 28rem),
+    #11100e;
+  color: #f8f1df;
+}
+
+.dark-mode .notebook-grid {
+  background-image:
+    linear-gradient(rgba(248,241,223,0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(248,241,223,0.055) 1px, transparent 1px);
+}
+
+.dark-mode .paper-card {
+  background: #1f1d1a;
+  border-color: #f8f1df;
+  box-shadow: 7px 7px 0 #f8f1df;
+  color: #f8f1df;
+}
+
+.dark-mode .paper-card-soft {
+  border-color: #f8f1df;
+  box-shadow: 4px 4px 0 rgba(248,241,223,0.88);
+  color: #f8f1df;
+}
+
+/* skill group cards */
+.dark-mode .skill-card {
+  background: #2a2824;
+  color: #f8f1df;
+}
+
+/* all white/cream cards in sections (About, Experience, Education) */
+.dark-mode .bg-white-card {
+  background: #1f1d1a;
+  border-color: #f8f1df;
+  box-shadow: 4px 4px 0 #f8f1df;
+}
+.dark-mode .bg-white-card p,
+.dark-mode .bg-white-card li,
+.dark-mode .bg-white-card span { color: #f8f1df; }
+.dark-mode .bg-white-card h3 { color: #ffd166; }
+
+/* inline tag pills (hero, project cards, skills) */
+.dark-mode .hero-tag {
+  background: #2a2824;
+  border-color: #f8f1df;
+  color: #f8f1df;
+  box-shadow: 2px 2px 0 rgba(248,241,223,0.4);
+}
+
+/* secondary / outline buttons in dark mode */
+.dark-mode .btn-outline {
+  background: transparent;
+  border-color: #f8f1df;
+  color: #f8f1df;
+  box-shadow: 5px 5px 0 #f8f1df;
+}
+
+.dark-mode .sketch-underline {
+  text-decoration-color: rgba(255,209,102,0.55);
+}
+
+.dark-mode .section-label {
+  color: #ffd166;
+}
+
+.dark-mode .pill {
+  border-color: #f8f1df;
+  color: #f8f1df;
+}
+
+.dark-mode .pill:hover {
+  box-shadow: 3px 5px 0 #f8f1df;
+}
+
+.dark-mode .pill-filled {
+  background: #f8f1df;
+  color: #181512;
+  border-color: #f8f1df;
+  box-shadow: 4px 4px 0 #ffd166;
+}
+
+.dark-mode .pill-filled:hover {
+  box-shadow: 4px 6px 0 #ffd166;
+}
+
+/* hero badge pill (bg-white overrides dark: variant) */
+.dark-mode .hero-badge {
+  background: #1f1d1a;
+  border-color: #f8f1df;
+  color: #f8f1df;
+  box-shadow: 4px 4px 0 #f8f1df;
+}
+
+/* About note cards */
+.dark-mode .note-card {
+  background: #2a2824;
+  border-color: #f8f1df;
+  box-shadow: 4px 4px 0 #f8f1df;
+}
+.dark-mode .note-card p { color: #f8f1df; }
+.dark-mode .note-card p:first-child { color: #ffd166; }
+
+/* nav links hover in dark mode */
+.dark-mode nav a:hover {
+  background: #2a2824 !important;
+  border-color: #f8f1df !important;
+  color: #f8f1df;
+}
+
+/* Keep illustrations in light colours in dark mode */
+.preserve-light-art,
+.preserve-light-art * {
+  color: #181512;
+}
+
+.dark-mode .preserve-light-art.paper-card,
+.dark-mode .preserve-light-art .paper-card {
+  border-color: #181512;
+  box-shadow: 7px 7px 0 #181512;
+}
+
+.dark-mode .preserve-light-art.paper-card-soft,
+.dark-mode .preserve-light-art .paper-card-soft {
+  border-color: #181512;
+  box-shadow: 4px 4px 0 rgba(24,21,18,0.88);
+}

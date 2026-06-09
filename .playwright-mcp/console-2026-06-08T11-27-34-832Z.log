@@ -1,0 +1,3 @@
+[    5152ms] [LOG] [Churnkey] Embed v1.0.50 @ https://same.new/_next/static/chunks/75-72d0d93d02f92541.js?dpl=dpl_HQgPBiebusYjcciVnqJj3vHZCSrx:1
+[    5461ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://same.new/api/trpc/project.listOwnedByUser?input=%7B%22json%22%3A%7B%22favorite%22%3Atrue%7D%7D:0
+[    5486ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://same.new/api/trpc/project.listOwnedByUser?input=%7B%22json%22%3A%7B%22favorite%22%3Afalse%7D%7D:0
