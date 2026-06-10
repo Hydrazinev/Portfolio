@@ -55,7 +55,7 @@ export default function Nav({ dark, onToggle }: NavProps) {
 
         <div className="ml-auto flex items-center gap-2">
           <a
-            href="/Vaidik_Shah_Resume_.pdf"
+            href="/Vaidik_Shah_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="pill hidden md:inline-flex"
@@ -134,7 +134,7 @@ export default function Nav({ dark, onToggle }: NavProps) {
               ))}
               <div className="mt-3 flex gap-3 border-t-2 border-[#181512]/20 pt-3 dark:border-[#f8f1df]/20">
                 <a
-                  href="/Vaidik_Shah_Resume_.pdf"
+                  href="/Vaidik_Shah_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="pill flex-1 justify-center text-center"

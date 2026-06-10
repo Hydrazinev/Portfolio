@@ -10,7 +10,7 @@ const inView = (delay = 0) => ({
 });
 
 const notes = [
-  'MS CS student at CSULB — incoming August 2025. Ex-ISRO, AWS Certified Solutions Architect.',
+  'MS CS student at CSULB. Ex-ISRO, AWS Certified Solutions Architect.',
   'Built production ML systems at Technolee serving real-time predictions <200ms for 20+ product lines.',
   'Currently building AI/ML platforms — from medication safety (DrugShield AI) to multi-voice TTS (PageSpeaks).',
 ];
