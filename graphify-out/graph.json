@@ -522,16 +522,25 @@
       "source_file": "src/components/Projects.tsx",
       "source_location": "L1",
       "id": "src_components_projects_tsx",
-      "community": 20,
+      "community": 2,
       "norm_label": "projects.tsx"
+    },
+    {
+      "label": "TiltCard()",
+      "file_type": "code",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L6",
+      "id": "components_projects_tiltcard",
+      "community": 2,
+      "norm_label": "tiltcard()"
     },
     {
       "label": "Projects()",
       "file_type": "code",
       "source_file": "src/components/Projects.tsx",
-      "source_location": "L5",
+      "source_location": "L107",
       "id": "components_projects_projects",
-      "community": 20,
+      "community": 2,
       "norm_label": "projects()"
     },
     {
@@ -583,7 +592,7 @@
       "label": "links",
       "file_type": "code",
       "source_file": "src/components/Nav.tsx",
-      "source_location": "L3",
+      "source_location": "L4",
       "id": "components_nav_links",
       "community": 2,
       "norm_label": "links"
@@ -592,7 +601,7 @@
       "label": "NavProps",
       "file_type": "code",
       "source_file": "src/components/Nav.tsx",
-      "source_location": "L5",
+      "source_location": "L6",
       "id": "components_nav_navprops",
       "community": 2,
       "norm_label": "navprops"
@@ -601,7 +610,7 @@
       "label": "Nav()",
       "file_type": "code",
       "source_file": "src/components/Nav.tsx",
-      "source_location": "L10",
+      "source_location": "L11",
       "id": "components_nav_nav",
       "community": 2,
       "norm_label": "nav()"
@@ -612,16 +621,16 @@
       "source_file": "src/components/Experience.tsx",
       "source_location": "L1",
       "id": "src_components_experience_tsx",
-      "community": 11,
+      "community": 2,
       "norm_label": "experience.tsx"
     },
     {
       "label": "Experience()",
       "file_type": "code",
       "source_file": "src/components/Experience.tsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "id": "components_experience_experience",
-      "community": 11,
+      "community": 2,
       "norm_label": "experience()"
     },
     {
@@ -637,7 +646,7 @@
       "label": "Contact()",
       "file_type": "code",
       "source_file": "src/components/Contact.tsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "id": "components_contact_contact",
       "community": 2,
       "norm_label": "contact()"
@@ -661,21 +670,66 @@
       "norm_label": "footer()"
     },
     {
+      "label": "AnimatedText.tsx",
+      "file_type": "code",
+      "source_file": "src/components/AnimatedText.tsx",
+      "source_location": "L1",
+      "id": "src_components_animatedtext_tsx",
+      "community": 2,
+      "norm_label": "animatedtext.tsx"
+    },
+    {
+      "label": "Props",
+      "file_type": "code",
+      "source_file": "src/components/AnimatedText.tsx",
+      "source_location": "L3",
+      "id": "components_animatedtext_props",
+      "community": 2,
+      "norm_label": "props"
+    },
+    {
+      "label": "wordVariant",
+      "file_type": "code",
+      "source_file": "src/components/AnimatedText.tsx",
+      "source_location": "L9",
+      "id": "components_animatedtext_wordvariant",
+      "community": 2,
+      "norm_label": "wordvariant"
+    },
+    {
+      "label": "AnimatedText()",
+      "file_type": "code",
+      "source_file": "src/components/AnimatedText.tsx",
+      "source_location": "L17",
+      "id": "components_animatedtext_animatedtext",
+      "community": 2,
+      "norm_label": "animatedtext()"
+    },
+    {
       "label": "Skills.tsx",
       "file_type": "code",
       "source_file": "src/components/Skills.tsx",
       "source_location": "L1",
       "id": "src_components_skills_tsx",
-      "community": 2,
+      "community": 11,
       "norm_label": "skills.tsx"
+    },
+    {
+      "label": "pillVariants",
+      "file_type": "code",
+      "source_file": "src/components/Skills.tsx",
+      "source_location": "L6",
+      "id": "components_skills_pillvariants",
+      "community": 11,
+      "norm_label": "pillvariants"
     },
     {
       "label": "Skills()",
       "file_type": "code",
       "source_file": "src/components/Skills.tsx",
-      "source_location": "L5",
+      "source_location": "L11",
       "id": "components_skills_skills",
-      "community": 2,
+      "community": 11,
       "norm_label": "skills()"
     },
     {
@@ -691,7 +745,7 @@
       "label": "notes",
       "file_type": "code",
       "source_file": "src/components/Education.tsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "id": "components_education_notes",
       "community": 10,
       "norm_label": "notes"
@@ -700,7 +754,7 @@
       "label": "Education()",
       "file_type": "code",
       "source_file": "src/components/Education.tsx",
-      "source_location": "L22",
+      "source_location": "L23",
       "id": "components_education_education",
       "community": 10,
       "norm_label": "education()"
@@ -718,7 +772,7 @@
       "label": "inView()",
       "file_type": "code",
       "source_file": "src/components/About.tsx",
-      "source_location": "L4",
+      "source_location": "L5",
       "id": "components_about_inview",
       "community": 2,
       "norm_label": "inview()"
@@ -727,7 +781,7 @@
       "label": "notes",
       "file_type": "code",
       "source_file": "src/components/About.tsx",
-      "source_location": "L11",
+      "source_location": "L12",
       "id": "components_about_notes",
       "community": 2,
       "norm_label": "notes"
@@ -736,7 +790,7 @@
       "label": "About()",
       "file_type": "code",
       "source_file": "src/components/About.tsx",
-      "source_location": "L17",
+      "source_location": "L18",
       "id": "components_about_about",
       "community": 2,
       "norm_label": "about()"
@@ -747,7 +801,7 @@
       "source_file": "src/data/projects.ts",
       "source_location": "L1",
       "id": "src_data_projects_ts",
-      "community": 20,
+      "community": 2,
       "norm_label": "projects.ts"
     },
     {
@@ -756,7 +810,7 @@
       "source_file": "src/data/projects.ts",
       "source_location": "L1",
       "id": "data_projects_project",
-      "community": 20,
+      "community": 2,
       "norm_label": "project"
     },
     {
@@ -765,7 +819,7 @@
       "source_file": "src/data/projects.ts",
       "source_location": "L15",
       "id": "data_projects_projects",
-      "community": 20,
+      "community": 2,
       "norm_label": "projects"
     },
     {
@@ -801,7 +855,7 @@
       "source_file": "src/data/experience.ts",
       "source_location": "L1",
       "id": "src_data_experience_ts",
-      "community": 11,
+      "community": 2,
       "norm_label": "experience.ts"
     },
     {
@@ -810,7 +864,7 @@
       "source_file": "src/data/experience.ts",
       "source_location": "L1",
       "id": "data_experience_job",
-      "community": 11,
+      "community": 2,
       "norm_label": "job"
     },
     {
@@ -819,7 +873,7 @@
       "source_file": "src/data/experience.ts",
       "source_location": "L9",
       "id": "data_experience_experience",
-      "community": 11,
+      "community": 2,
       "norm_label": "experience"
     },
     {
@@ -828,7 +882,7 @@
       "source_file": "src/data/skills.ts",
       "source_location": "L1",
       "id": "src_data_skills_ts",
-      "community": 2,
+      "community": 11,
       "norm_label": "skills.ts"
     },
     {
@@ -837,7 +891,7 @@
       "source_file": "src/data/skills.ts",
       "source_location": "L1",
       "id": "data_skills_skillgroup",
-      "community": 2,
+      "community": 11,
       "norm_label": "skillgroup"
     },
     {
@@ -846,7 +900,7 @@
       "source_file": "src/data/skills.ts",
       "source_location": "L6",
       "id": "data_skills_skillgroups",
-      "community": 2,
+      "community": 11,
       "norm_label": "skillgroups"
     },
     {
@@ -863,126 +917,126 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
-      "id": "claude_md",
       "community": 13,
-      "norm_label": "claude.md"
+      "norm_label": "claude.md",
+      "id": "claude_md"
     },
     {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
-      "id": "portfolio_claude_claude_md",
       "community": 13,
-      "norm_label": "claude.md"
+      "norm_label": "claude.md",
+      "id": "portfolio_claude_claude_md"
     },
     {
       "label": "Commands",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L5",
-      "id": "portfolio_claude_commands",
       "community": 13,
-      "norm_label": "commands"
+      "norm_label": "commands",
+      "id": "portfolio_claude_commands"
     },
     {
       "label": "Architecture",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L18",
-      "id": "portfolio_claude_architecture",
       "community": 13,
-      "norm_label": "architecture"
+      "norm_label": "architecture",
+      "id": "portfolio_claude_architecture"
     },
     {
       "label": "Design system",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L48",
-      "id": "portfolio_claude_design_system",
       "community": 13,
-      "norm_label": "design system"
+      "norm_label": "design system",
+      "id": "portfolio_claude_design_system"
     },
     {
       "label": "Custom CSS classes (src/index.css)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L63",
-      "id": "portfolio_claude_custom_css_classes_src_index_css",
       "community": 13,
-      "norm_label": "custom css classes (src/index.css)"
+      "norm_label": "custom css classes (src/index.css)",
+      "id": "portfolio_claude_custom_css_classes_src_index_css"
     },
     {
       "label": "Component details",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L70",
-      "id": "portfolio_claude_component_details",
       "community": 13,
-      "norm_label": "component details"
+      "norm_label": "component details",
+      "id": "portfolio_claude_component_details"
     },
     {
       "label": "Hero",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L72",
-      "id": "portfolio_claude_hero",
       "community": 13,
-      "norm_label": "hero"
+      "norm_label": "hero",
+      "id": "portfolio_claude_hero"
     },
     {
       "label": "Projects (02 \u00b7 Projects)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L80",
-      "id": "portfolio_claude_projects_02_projects",
       "community": 13,
-      "norm_label": "projects (02 \u00b7 projects)"
+      "norm_label": "projects (02 \u00b7 projects)",
+      "id": "portfolio_claude_projects_02_projects"
     },
     {
       "label": "Skills (03 \u00b7 Skills)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L86",
-      "id": "portfolio_claude_skills_03_skills",
       "community": 13,
-      "norm_label": "skills (03 \u00b7 skills)"
+      "norm_label": "skills (03 \u00b7 skills)",
+      "id": "portfolio_claude_skills_03_skills"
     },
     {
       "label": "Experience (04 \u00b7 Experience)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L90",
-      "id": "portfolio_claude_experience_04_experience",
       "community": 13,
-      "norm_label": "experience (04 \u00b7 experience)"
+      "norm_label": "experience (04 \u00b7 experience)",
+      "id": "portfolio_claude_experience_04_experience"
     },
     {
       "label": "Contact",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L96",
-      "id": "portfolio_claude_contact",
       "community": 13,
-      "norm_label": "contact"
+      "norm_label": "contact",
+      "id": "portfolio_claude_contact"
     },
     {
       "label": "Animations",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L106",
-      "id": "portfolio_claude_animations",
       "community": 13,
-      "norm_label": "animations"
+      "norm_label": "animations",
+      "id": "portfolio_claude_animations"
     },
     {
       "label": "Adding a project",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L114",
-      "id": "portfolio_claude_adding_a_project",
       "community": 13,
-      "norm_label": "adding a project"
+      "norm_label": "adding a project",
+      "id": "portfolio_claude_adding_a_project"
     },
     {
       "label": "icons",
@@ -1002,7 +1056,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "claude.md \u2014 portfolio project instructions",
       "id": "portfolio_claude_md_root"
     },
@@ -1015,7 +1069,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "tech stack: react 18 + typescript + vite + tailwind css + framer motion + lucide react",
       "id": "portfolio_claude_md_stack"
     },
@@ -1043,7 +1097,7 @@
       "author": null,
       "contributor": null,
       "rationale": "All sections scroll on one page \u2014 no routing needed",
-      "community": 1,
+      "community": 7,
       "norm_label": "single-page app architecture",
       "id": "portfolio_claude_md_spa"
     },
@@ -1108,7 +1162,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "component: nav.tsx",
       "id": "portfolio_claude_md_component_nav"
     },
@@ -1121,7 +1175,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "component: hero.tsx",
       "id": "portfolio_claude_md_component_hero"
     },
@@ -1134,7 +1188,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "component: about.tsx",
       "id": "portfolio_claude_md_component_about"
     },
@@ -1147,7 +1201,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "component: projects.tsx",
       "id": "portfolio_claude_md_component_projects"
     },
@@ -1160,7 +1214,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "component: skills.tsx",
       "id": "portfolio_claude_md_component_skills"
     },
@@ -1173,7 +1227,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "component: experience.tsx",
       "id": "portfolio_claude_md_component_experience"
     },
@@ -1186,7 +1240,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "component: education.tsx",
       "id": "portfolio_claude_md_component_education"
     },
@@ -1199,7 +1253,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "component: contact.tsx",
       "id": "portfolio_claude_md_component_contact"
     },
@@ -1212,7 +1266,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "component: footer.tsx",
       "id": "portfolio_claude_md_component_footer"
     },
@@ -1225,7 +1279,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "data: src/data/projects.ts",
       "id": "portfolio_claude_md_data_projects"
     },
@@ -1238,7 +1292,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "data: src/data/skills.ts",
       "id": "portfolio_claude_md_data_skills"
     },
@@ -1251,7 +1305,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "data: src/data/experience.ts",
       "id": "portfolio_claude_md_data_experience"
     },
@@ -1264,7 +1318,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "data: src/data/education.ts",
       "id": "portfolio_claude_md_data_education"
     },
@@ -1277,7 +1331,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "framer motion animations",
       "id": "portfolio_claude_md_framer_motion"
     },
@@ -1290,7 +1344,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "vercel deployment (dist/ output)",
       "id": "portfolio_claude_md_vercel_deploy"
     },
@@ -1303,7 +1357,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 7,
       "norm_label": "typescript interface: project",
       "id": "portfolio_claude_md_project_interface"
     },
@@ -1421,7 +1475,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 1,
       "norm_label": "task 3: static data files",
       "id": "plans_portfolio_react_rebuild_task3"
     },
@@ -1447,7 +1501,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 1,
       "norm_label": "project: drugshield ai",
       "id": "plans_portfolio_react_rebuild_project_drugshield"
     },
@@ -1460,7 +1514,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 1,
       "norm_label": "project: pagespeaks",
       "id": "plans_portfolio_react_rebuild_project_pagespeaks"
     },
@@ -1473,7 +1527,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 1,
       "norm_label": "project: ai professor rating",
       "id": "plans_portfolio_react_rebuild_project_professor"
     },
@@ -1486,7 +1540,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 1,
       "norm_label": "project: osho voice tts",
       "id": "plans_portfolio_react_rebuild_project_osho"
     },
@@ -1499,7 +1553,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 1,
       "norm_label": "experience: technolee \u2014 software engineer data & ml",
       "id": "plans_portfolio_react_rebuild_exp_technolee"
     },
@@ -1512,7 +1566,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 1,
       "norm_label": "experience: isro \u2014 ai/ml engineer intern",
       "id": "plans_portfolio_react_rebuild_exp_isro"
     },
@@ -1525,7 +1579,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 1,
       "norm_label": "experience: cre-art solutions \u2014 software engineer intern",
       "id": "plans_portfolio_react_rebuild_exp_creart"
     },
@@ -1538,7 +1592,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 1,
       "norm_label": "education: csulb \u2014 ms computer science",
       "id": "plans_portfolio_react_rebuild_edu_csulb"
     },
@@ -1551,7 +1605,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 1,
       "norm_label": "education: gtu \u2014 bs computer science",
       "id": "plans_portfolio_react_rebuild_edu_gtu"
     },
@@ -1658,7 +1712,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 3,
       "norm_label": "vaidik-portfolio (npm project)",
       "id": "portfolio_package_project"
     },
@@ -1671,7 +1725,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 3,
       "norm_label": "react ^18.2.0",
       "id": "portfolio_package_react"
     },
@@ -1684,7 +1738,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 3,
       "norm_label": "framer-motion ^11.0.0",
       "id": "portfolio_package_framer_motion"
     },
@@ -1697,7 +1751,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 3,
       "norm_label": "lucide-react ^0.363.0",
       "id": "portfolio_package_lucide_react"
     },
@@ -1723,7 +1777,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 3,
       "norm_label": "vite ^5.1.0",
       "id": "portfolio_package_vite"
     },
@@ -1736,7 +1790,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 3,
       "norm_label": "typescript ^5.2.0",
       "id": "portfolio_package_typescript"
     },
@@ -1749,7 +1803,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 3,
       "norm_label": "vite.config.ts",
       "id": "portfolio_vite_config"
     },
@@ -1775,7 +1829,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 3,
       "norm_label": "tsconfig.json",
       "id": "portfolio_tsconfig"
     },
@@ -1788,7 +1842,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 3,
       "norm_label": "vercel.json",
       "id": "portfolio_vercel_config"
     },
@@ -3399,6 +3453,27 @@
       "target": "components_projects_projects"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_projects_tsx",
+      "target": "components_projects_tiltcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_projects_tsx",
+      "target": "data_projects_project",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -3408,6 +3483,17 @@
       "confidence_score": 1.0,
       "source": "src_components_projects_tsx",
       "target": "data_projects_projects"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Projects.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_projects_tsx",
+      "target": "src_components_animatedtext_tsx",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -3517,6 +3603,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/components/Experience.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_experience_tsx",
+      "target": "src_components_animatedtext_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Experience.tsx",
       "source_location": "L2",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3534,6 +3631,17 @@
       "target": "components_contact_contact"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Contact.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_contact_tsx",
+      "target": "src_components_animatedtext_tsx",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/Footer.tsx",
@@ -3542,6 +3650,79 @@
       "confidence_score": 1.0,
       "source": "src_components_footer_tsx",
       "target": "components_footer_footer"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/About.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_about_tsx",
+      "target": "src_components_animatedtext_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AnimatedText.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_components_animatedtext_tsx",
+      "target": "components_animatedtext_animatedtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AnimatedText.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_animatedtext_tsx",
+      "target": "components_animatedtext_props",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AnimatedText.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_components_animatedtext_tsx",
+      "target": "components_animatedtext_wordvariant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Education.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_education_tsx",
+      "target": "src_components_animatedtext_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Skills.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_components_skills_tsx",
+      "target": "src_components_animatedtext_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Skills.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_skills_tsx",
+      "target": "components_skills_pillvariants",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3601,9 +3782,9 @@
       "source_file": "src/components/Education.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_components_education_tsx",
-      "target": "components_education_notes",
-      "confidence_score": 1.0
+      "target": "components_education_notes"
     },
     {
       "relation": "imports",
@@ -3754,9 +3935,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "portfolio_claude_claude_md",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_claude_md"
     },
     {
       "relation": "contains",
@@ -3764,9 +3945,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_claude_claude_md",
-      "target": "portfolio_claude_adding_a_project",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_adding_a_project"
     },
     {
       "relation": "contains",
@@ -3774,9 +3955,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_claude_claude_md",
-      "target": "portfolio_claude_animations",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_animations"
     },
     {
       "relation": "contains",
@@ -3784,9 +3965,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_claude_claude_md",
-      "target": "portfolio_claude_architecture",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_architecture"
     },
     {
       "relation": "contains",
@@ -3794,9 +3975,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_claude_claude_md",
-      "target": "portfolio_claude_commands",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_commands"
     },
     {
       "relation": "contains",
@@ -3804,9 +3985,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_claude_claude_md",
-      "target": "portfolio_claude_component_details",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_component_details"
     },
     {
       "relation": "contains",
@@ -3814,9 +3995,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_claude_claude_md",
-      "target": "portfolio_claude_design_system",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_design_system"
     },
     {
       "relation": "contains",
@@ -3824,9 +4005,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_claude_design_system",
-      "target": "portfolio_claude_custom_css_classes_src_index_css",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_custom_css_classes_src_index_css"
     },
     {
       "relation": "contains",
@@ -3834,9 +4015,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_claude_component_details",
-      "target": "portfolio_claude_contact",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_contact"
     },
     {
       "relation": "contains",
@@ -3844,9 +4025,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_claude_component_details",
-      "target": "portfolio_claude_experience_04_experience",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_experience_04_experience"
     },
     {
       "relation": "contains",
@@ -3854,9 +4035,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_claude_component_details",
-      "target": "portfolio_claude_hero",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_hero"
     },
     {
       "relation": "contains",
@@ -3864,9 +4045,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_claude_component_details",
-      "target": "portfolio_claude_projects_02_projects",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_projects_02_projects"
     },
     {
       "relation": "contains",
@@ -3874,9 +4055,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portfolio_claude_component_details",
-      "target": "portfolio_claude_skills_03_skills",
-      "confidence_score": 1.0
+      "target": "portfolio_claude_skills_03_skills"
     },
     {
       "relation": "documents",
@@ -5650,5 +5831,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "3b27337d1521f7c46b31d1d2526358bc1cfab35a"
+  "built_at_commit": "cc9e9db57030d6f507e03d817740efbe867599e7"
 }

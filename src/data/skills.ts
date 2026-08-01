@@ -10,7 +10,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     label: 'AI / ML',
-    skills: ['PyTorch', 'TensorFlow', 'LangChain', 'Scikit-learn', 'NumPy', 'Pandas', 'XGBoost', 'NLP', 'Computer Vision'],
+    skills: ['PyTorch', 'TensorFlow', 'LangChain', 'Scikit-learn', 'NumPy', 'Pandas', 'XGBoost', 'NLP', 'Computer Vision', 'R', 'Tableau', 'SAS'],
   },
   {
     label: 'Backend & Databases',
@@ -22,6 +22,6 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     label: 'Web & Other',
-    skills: ['React', 'Next.js', 'Angular', 'Vue', 'Tailwind CSS', 'HTML5 / CSS', 'Web3'],
+    skills: ['React', 'Next.js', 'Angular', 'Vue', 'Bootstrap', 'Tailwind CSS', 'HTML5 / CSS', 'Web3'],
   },
 ];

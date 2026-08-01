@@ -1,16 +1,16 @@
-# Graph Report - Portfolio  (2026-06-08)
+# Graph Report - Portfolio  (2026-07-31)
 
 ## Corpus Check
-- 25 files · ~51,637 words
+- 25 files · ~5,123 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 249 nodes · 282 edges · 22 communities (19 shown, 3 thin omitted)
+- 255 nodes · 294 edges · 20 communities (19 shown, 1 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3b27337d`
+- Built from commit: `cc9e9db5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,8 +30,6 @@
 - [[_COMMUNITY_Vercel Deploy Config|Vercel Deploy Config]]
 - [[_COMMUNITY_Deploy Script|Deploy Script]]
 - [[_COMMUNITY_Project README|Project README]]
-- [[_COMMUNITY_Community 19|Community 19]]
-- [[_COMMUNITY_Community 20|Community 20]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `CLAUDE.md — Portfolio Project Instructions` - 18 edges
@@ -46,34 +44,34 @@
 10. `Hero component` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `index.html — Vite Entry Point` --implements--> `Tech Stack: React 18 + TypeScript + Vite + Tailwind CSS + Framer Motion + Lucide React`  [INFERRED]
+  index.html → CLAUDE.md
+- `Legacy Stack: Vue 2 + TypeScript + Vue Router + LESS` --superseded_by--> `Tech Stack: React 18 + TypeScript + Vite + Tailwind CSS + Framer Motion + Lucide React`  [INFERRED]
+  docs/superpowers/specs/2026-06-07-claude-md-design.md → CLAUDE.md
+- `Spec: Portfolio Redesign (2026-06-08)` --specifies--> `Vercel Deployment (dist/ output)`  [EXTRACTED]
+  docs/superpowers/specs/2026-06-08-portfolio-redesign.md → CLAUDE.md
 - `index.css (global styles)` --uses--> `tailwindcss ^3.4.0`  [EXTRACTED]
   src/index.css → package.json
 - `CSS class: paper-card` --uses_color--> `color: ink (#181512)`  [EXTRACTED]
   src/index.css → tailwind.config.ts
-- `CSS class: pill-filled` --uses_color--> `color: accent (#ffd166)`  [EXTRACTED]
-  src/index.css → tailwind.config.ts
-- `CSS class: paper-card` --uses_color--> `color: card (#fffaf0)`  [EXTRACTED]
-  src/index.css → tailwind.config.ts
-- `index.html — Vite Entry Point` --implements--> `Tech Stack: React 18 + TypeScript + Vite + Tailwind CSS + Framer Motion + Lucide React`  [INFERRED]
-  index.html → CLAUDE.md
 
-## Communities (22 total, 3 thin omitted)
+## Communities (20 total, 1 thin omitted)
 
 ### Community 0 - "UI Section Components"
 Cohesion: 0.07
 Nodes (42): About component, About inView animation helper, About note cards (3 narrative notes), Contact component, Contact illustration (email scene with person silhouette), preserve-light-art wrapper (Contact illustration stays light in dark mode), Education component, Experience component (+34 more)
 
 ### Community 1 - "React Rebuild Plan"
-Cohesion: 0.07
-Nodes (39): Goal: Replace Vue 2 with React 18 + Vite + Tailwind, Plan: Portfolio React Rebuild Implementation, Task 1: Remove Vue 2, Scaffold React + Vite, Task 2: Design System CSS tokens, Task 12: Vercel Config Update, Component: About.tsx, Component: Contact.tsx, Component: Education.tsx (+31 more)
+Cohesion: 0.08
+Nodes (30): Education: CSULB — MS Computer Science, Education: GTU — BS Computer Science, Experience: Cre-Art Solutions — Software Engineer Intern, Experience: ISRO — AI/ML Engineer Intern, Experience: Technolee — Software Engineer Data & ML, Goal: Replace Vue 2 with React 18 + Vite + Tailwind, Project: DrugShield AI, Project: Osho Voice TTS (+22 more)
 
 ### Community 2 - "Component Functions"
-Cohesion: 0.09
-Nodes (10): About(), inView(), notes, fade(), Hero(), HeroProps, links, NavProps (+2 more)
+Cohesion: 0.07
+Nodes (14): About(), inView(), notes, Props, wordVariant, fade(), Hero(), HeroProps (+6 more)
 
 ### Community 3 - "NPM Dependencies"
-Cohesion: 0.18
-Nodes (15): tailwindcss ^3.4.0, color: accent (#ffd166), color: card (#fffaf0), color: cream (#f8f1df), color: ink (#181512), index.css (global styles), Dark mode CSS overrides (.dark-mode), CSS class: notebook-grid (+7 more)
+Cohesion: 0.11
+Nodes (21): framer-motion ^11.0.0, lucide-react ^0.363.0, vaidik-portfolio (npm project), react ^18.2.0, tailwindcss ^3.4.0, typescript ^5.2.0, vite ^5.1.0, color: accent (#ffd166) (+13 more)
 
 ### Community 4 - "Package Config"
 Cohesion: 0.09
@@ -88,8 +86,8 @@ Cohesion: 0.13
 Nodes (14): compilerOptions, allowImportingTsExtensions, isolatedModules, jsx, lib, module, moduleResolution, noEmit (+6 more)
 
 ### Community 7 - "Portfolio Content"
-Cohesion: 0.22
-Nodes (10): Education: CSULB — MS Computer Science, Education: GTU — BS Computer Science, Experience: Cre-Art Solutions — Software Engineer Intern, Experience: ISRO — AI/ML Engineer Intern, Experience: Technolee — Software Engineer Data & ML, Project: DrugShield AI, Project: Osho Voice TTS, Project: PageSpeaks (+2 more)
+Cohesion: 0.13
+Nodes (19): Component: About.tsx, Component: Contact.tsx, Component: Education.tsx, Component: Experience.tsx, Component: Footer.tsx, Component: Hero.tsx, Component: Nav.tsx, Component: Projects.tsx (+11 more)
 
 ### Community 8 - "TS Compiler (App)"
 Cohesion: 0.25
@@ -103,6 +101,10 @@ Nodes (7): SkillGroup: AI / ML, skillGroups[] array, SkillGroup: Backend & Datab
 Cohesion: 0.33
 Nodes (4): icons, notes, Degree, education
 
+### Community 11 - "Experience Component"
+Cohesion: 0.40
+Nodes (3): pillVariants, SkillGroup, skillGroups
+
 ### Community 12 - "Vercel Deploy Config"
 Cohesion: 0.50
 Nodes (3): buildCommand, framework, outputDirectory
@@ -111,29 +113,25 @@ Nodes (3): buildCommand, framework, outputDirectory
 Cohesion: 0.14
 Nodes (12): Adding a project, Animations, Architecture, Commands, Component details, Contact, Custom CSS classes (src/index.css), Design system (+4 more)
 
-### Community 19 - "Community 19"
-Cohesion: 0.28
-Nodes (6): framer-motion ^11.0.0, lucide-react ^0.363.0, vaidik-portfolio (npm project), react ^18.2.0, typescript ^5.2.0, vite ^5.1.0
-
 ## Knowledge Gaps
-- **123 isolated node(s):** `composite`, `skipLibCheck`, `module`, `moduleResolution`, `allowSyntheticDefaultImports` (+118 more)
+- **125 isolated node(s):** `composite`, `skipLibCheck`, `module`, `moduleResolution`, `allowSyntheticDefaultImports` (+120 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `CLAUDE.md — Portfolio Project Instructions` connect `Portfolio Content` to `React Rebuild Plan`?**
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+- **Why does `Spec: Portfolio Redesign (2026-06-08)` connect `React Rebuild Plan` to `Portfolio Content`?**
+  _High betweenness centrality (0.017) - this node is a cross-community bridge._
 - **What connects `composite`, `skipLibCheck`, `module` to the rest of the system?**
-  _124 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _126 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `UI Section Components` be split into smaller, more focused modules?**
   _Cohesion score 0.07084785133565621 - nodes in this community are weakly interconnected._
 - **Should `React Rebuild Plan` be split into smaller, more focused modules?**
-  _Cohesion score 0.06747638326585695 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07586206896551724 - nodes in this community are weakly interconnected._
 - **Should `Component Functions` be split into smaller, more focused modules?**
-  _Cohesion score 0.09420289855072464 - nodes in this community are weakly interconnected._
-- **Should `Package Config` be split into smaller, more focused modules?**
-  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
-- **Should `Work Experience Data` be split into smaller, more focused modules?**
-  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
-- **Should `TS Compiler (Node)` be split into smaller, more focused modules?**
-  _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07308377896613191 - nodes in this community are weakly interconnected._
+- **Should `NPM Dependencies` be split into smaller, more focused modules?**
+  _Cohesion score 0.11 - nodes in this community are weakly interconnected._

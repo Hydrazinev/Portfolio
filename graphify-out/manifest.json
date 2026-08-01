@@ -50,53 +50,53 @@
     "semantic_hash": "aa122bdcf833a2c00fdf9ca8e5348675"
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Projects.tsx": {
-    "mtime": 1780920649.354815,
-    "ast_hash": "dec90222b7fb972903b313e0ed7eae6c",
-    "semantic_hash": "dec90222b7fb972903b313e0ed7eae6c"
+    "mtime": 1780967623.6909604,
+    "ast_hash": "9eebe2838a63fdcc94488586b3f5c269",
+    "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Hero.tsx": {
-    "mtime": 1780964948.8507352,
-    "ast_hash": "04993662502b7a1323051b0138b36093",
+    "mtime": 1780967768.5646746,
+    "ast_hash": "8ecc3d961081c105a6a06411e6f85d2f",
     "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Nav.tsx": {
-    "mtime": 1780966904.1789188,
-    "ast_hash": "9ec700c598fe26b8f84fe59e039c18ba",
+    "mtime": 1781106182.8468614,
+    "ast_hash": "c302d52f970d31899d9c527b8403e171",
     "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Experience.tsx": {
-    "mtime": 1780966296.9835546,
-    "ast_hash": "6f6c1abfe21592fa78ecdd05abdbeed0",
+    "mtime": 1780967726.3926187,
+    "ast_hash": "38288801c912bf50024f1445eb7c80c9",
     "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Contact.tsx": {
-    "mtime": 1780917995.565999,
-    "ast_hash": "855a67438ce0aab199f8d93d55d277a9",
-    "semantic_hash": "855a67438ce0aab199f8d93d55d277a9"
+    "mtime": 1780967794.8482335,
+    "ast_hash": "62cbbf2b4baa8ffebd84762a0e42e3a4",
+    "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Footer.tsx": {
-    "mtime": 1780918000.8672109,
-    "ast_hash": "be9cabb7b5ec736a889cf04bdadc7c1f",
-    "semantic_hash": "be9cabb7b5ec736a889cf04bdadc7c1f"
+    "mtime": 1780967058.023102,
+    "ast_hash": "70693baed77c0d60f6f0bc234590c673",
+    "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Skills.tsx": {
-    "mtime": 1780921275.0676992,
-    "ast_hash": "84fc6dde32bd90046dd88bb9f516cb5c",
-    "semantic_hash": "84fc6dde32bd90046dd88bb9f516cb5c"
+    "mtime": 1780967638.9539866,
+    "ast_hash": "2ce8e727d03e739ec021e1a9815aa2f9",
+    "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/Education.tsx": {
-    "mtime": 1780966485.3907413,
-    "ast_hash": "955e4cc396cceff39af9396f883541c7",
+    "mtime": 1780967742.2604728,
+    "ast_hash": "6c2c379d4c51b0a639c77c8425b9e09f",
     "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/About.tsx": {
-    "mtime": 1780965277.246062,
-    "ast_hash": "09e1347482332876bc431bca189489cd",
+    "mtime": 1781105887.9541614,
+    "ast_hash": "2f3f6c85ccb73d1f386ec43abae07646",
     "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/data/projects.ts": {
-    "mtime": 1780965879.2543998,
-    "ast_hash": "f20d48edb466f61548cd23dfb0da4bb9",
+    "mtime": 1780967365.8395185,
+    "ast_hash": "0863b31610a9b79a505bd91fe8cc85bf",
     "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/data/education.ts": {
@@ -105,19 +105,19 @@
     "semantic_hash": "ee640d781b2e865a2ae1b5d03e51a814"
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/data/experience.ts": {
-    "mtime": 1780966291.356418,
-    "ast_hash": "dfc39b88a2abafb1667c8528fd88f410",
+    "mtime": 1785554339.9901445,
+    "ast_hash": "77d47bc95893482ff3508d242728a99d",
     "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/src/data/skills.ts": {
-    "mtime": 1780921009.6561527,
-    "ast_hash": "565b93a64d7bdcf59579db51447db719",
-    "semantic_hash": "565b93a64d7bdcf59579db51447db719"
+    "mtime": 1785554326.0641732,
+    "ast_hash": "fedcda7670a6c0bd533ddacd33269458",
+    "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/index.html": {
-    "mtime": 1780919333.6751275,
-    "ast_hash": "f9763c796a00620b736f61b0ecd83256",
-    "semantic_hash": "f9763c796a00620b736f61b0ecd83256"
+    "mtime": 1780972213.8179173,
+    "ast_hash": "3a744221391c9519998acc1456b7edcf",
+    "semantic_hash": ""
   },
   "/Users/vaidikshah/Projects/portfolio/Portfolio/README.md": {
     "mtime": 1780897458.3429277,
@@ -244,9 +244,14 @@
     "ast_hash": "2e547ea827a7dc25d12c14673856f6f5",
     "semantic_hash": "2e547ea827a7dc25d12c14673856f6f5"
   },
-  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/Vaidik_Shah_Resume_.pdf": {
-    "mtime": 1780921226.1018255,
-    "ast_hash": "3bc7f189bd786f1d2a9288ff9f994768",
-    "semantic_hash": "3bc7f189bd786f1d2a9288ff9f994768"
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/src/components/AnimatedText.tsx": {
+    "mtime": 1780967557.176846,
+    "ast_hash": "e155059481b952d81a80c5f279ffb241",
+    "semantic_hash": ""
+  },
+  "/Users/vaidikshah/Projects/portfolio/Portfolio/public/Vaidik_Shah_Resume.pdf": {
+    "mtime": 1785554318.6417189,
+    "ast_hash": "a679c3a585d0653752e843d90bbb9646",
+    "semantic_hash": ""
   }
 }
